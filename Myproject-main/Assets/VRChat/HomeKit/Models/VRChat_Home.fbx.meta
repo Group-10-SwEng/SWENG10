@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: 648ea07ed71b7424e828c02b8156c80f
+timeCreated: 1528237277
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: angleLight
+    100002: balcony
+    100004: balcony1
+    100006: balcony2
+    100008: balcony3
+    100010: balcony4
+    100012: ceiling1
+    100014: ceilingLight
+    100016: enteryPillar
+    100018: enteryPillar1
+    100020: exteriorWalls1
+    100022: floor1
+    100024: interiorWalls1
+    100026: portalDecoration1
+    100028: portalDoor
+    100030: slats
+    100032: slatsEdge
+    100034: support1
+    100036: support2
+    100038: //RootNode
+    100040: wallDecoration
+    100042: balcony 1
+    100044: entry
+    100046: furniture
+    100048: portal
+    100050: sofaCushions
+    100052: sofaLegs
+    100054: table
+    100056: structure1
+    400000: angleLight
+    400002: balcony
+    400004: balcony1
+    400006: balcony2
+    400008: balcony3
+    400010: balcony4
+    400012: ceiling1
+    400014: ceilingLight
+    400016: enteryPillar
+    400018: enteryPillar1
+    400020: exteriorWalls1
+    400022: floor1
+    400024: interiorWalls1
+    400026: portalDecoration1
+    400028: portalDoor
+    400030: slats
+    400032: slatsEdge
+    400034: support1
+    400036: support2
+    400038: //RootNode
+    400040: wallDecoration
+    400042: balcony 1
+    400044: entry
+    400046: furniture
+    400048: portal
+    400050: sofaCushions
+    400052: sofaLegs
+    400054: table
+    400056: structure1
+    2300000: angleLight
+    2300002: balcony
+    2300004: balcony1
+    2300006: balcony2
+    2300008: balcony3
+    2300010: balcony4
+    2300012: ceiling1
+    2300014: ceilingLight
+    2300016: enteryPillar
+    2300018: enteryPillar1
+    2300020: exteriorWalls1
+    2300022: floor1
+    2300024: interiorWalls1
+    2300026: portalDecoration1
+    2300028: portalDoor
+    2300030: slats
+    2300032: slatsEdge
+    2300034: support1
+    2300036: support2
+    2300038: wallDecoration
+    2300040: balcony 1
+    2300042: sofaCushions
+    2300044: sofaLegs
+    2300046: table
+    3300000: angleLight
+    3300002: balcony
+    3300004: balcony1
+    3300006: balcony2
+    3300008: balcony3
+    3300010: balcony4
+    3300012: ceiling1
+    3300014: ceilingLight
+    3300016: enteryPillar
+    3300018: enteryPillar1
+    3300020: exteriorWalls1
+    3300022: floor1
+    3300024: interiorWalls1
+    3300026: portalDecoration1
+    3300028: portalDoor
+    3300030: slats
+    3300032: slatsEdge
+    3300034: support1
+    3300036: support2
+    3300038: wallDecoration
+    3300040: balcony 1
+    3300042: sofaCushions
+    3300044: sofaLegs
+    3300046: table
+    4300000: support1
+    4300002: support2
+    4300004: portalDecoration1
+    4300006: floor1
+    4300008: ceiling1
+    4300010: interiorWalls1
+    4300012: exteriorWalls1
+    4300014: angleLight
+    4300016: wallDecoration
+    4300018: slatsEdge
+    4300020: ceilingLight
+    4300022: portalDoor
+    4300024: slats
+    4300026: enteryPillar
+    4300028: enteryPillar1
+    4300030: balcony3
+    4300032: balcony4
+    4300034: balcony2
+    4300036: balcony1
+    4300038: balcony
+    4300040: table
+    4300042: sofaCushions
+    4300044: sofaLegs
+    6400000: angleLight
+    6400002: balcony 1
+    6400004: balcony1
+    6400006: balcony2
+    6400008: balcony3
+    6400010: balcony4
+    6400012: ceiling1
+    6400014: ceilingLight
+    6400016: enteryPillar
+    6400018: enteryPillar1
+    6400020: exteriorWalls1
+    6400022: floor1
+    6400024: interiorWalls1
+    6400026: portalDecoration1
+    6400028: portalDoor
+    6400030: slats
+    6400032: slatsEdge
+    6400034: sofaCushions
+    6400036: sofaLegs
+    6400038: support1
+    6400040: support2
+    6400042: table
+    6400044: wallDecoration
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
