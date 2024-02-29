@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/homeRenovations.unity
+    guid: d5afea5d0eb3fb643ac4cd5ced77635c
   m_configObjects:
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 78a943e0289acbb4a8571418b31c0bd8, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f39f2f829ade1e34fb82f1e541ba41f4, type: 2}
