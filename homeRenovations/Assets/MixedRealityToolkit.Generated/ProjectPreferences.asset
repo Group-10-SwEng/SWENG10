@@ -23,7 +23,7 @@ MonoBehaviour:
   intPreferences:
     keys:
     - _MixedRealityToolkit_Editor_ConfiguratorState
-    values: 00000000
+    values: 65000000
   floatPreferences:
     keys: []
     values: []
