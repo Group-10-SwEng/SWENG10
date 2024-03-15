@@ -1,2 +1,0 @@
-openxr_loader.dll
-UnityOpenXRHands.dll
