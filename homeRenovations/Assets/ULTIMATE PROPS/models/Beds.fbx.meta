@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: b7eff5b56cde569468bc807c4de58df0
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BedFrame
+    second: {fileID: 2100000, guid: 812737cea071f354d94019d8da6957a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BedSheet
+    second: {fileID: 2100000, guid: ee4407501bcd707468d880a6f1ba2ff9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bed_01
+    second: {fileID: 2100000, guid: cd01fbfd2044efd4fbf0fd626b7d626e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bed_01_Fabric_Blue_01
+    second: {fileID: 2100000, guid: 27119e1225f241343876908410ba0064, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bed_01_Fabric_Blue_02
+    second: {fileID: 2100000, guid: 0d4f74f8bfba4694fa818e10864a6d49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bed_02_B_Inst
+    second: {fileID: 2100000, guid: 5ba26b874cf24dd44b966bf34822984c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bed_02_Inst
+    second: {fileID: 2100000, guid: 0f0ad7562f4993d4ba9d3cb9f3ab169f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bed_Mat
+    second: {fileID: 2100000, guid: abbfc9a79a509344a8ad9e58399aba0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blanket
+    second: {fileID: 2100000, guid: 2c15b5288536ac8418d5ceacb5be3c40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Duvet
+    second: {fileID: 2100000, guid: 4e26653297568d44f8b74ac5ab1bbdd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Furn_BedRough
+    second: {fileID: 2100000, guid: 7ebf55859e050354cb24a93601a8f461, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Furn_BunkBedWood_01_A
+    second: {fileID: 2100000, guid: 1be95b34b4cb9864384e817b44ce5c0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Furniture
+    second: {fileID: 2100000, guid: f6fc08b53289b034caf7581f7db84501, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hotel_Bed_02_A_mat
+    second: {fileID: 2100000, guid: a79b4988d6bb13d4daef3b0edf6cf8ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mattress
+    second: {fileID: 2100000, guid: 2dc4d14c01622d24f8dae7bab70b54a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pillow
+    second: {fileID: 2100000, guid: 902ff1c5376b2d0458c4c5ea5c4f4b0a, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bed_02_B_NRM
+    second: {fileID: 2800000, guid: 537e804733830a2429e7dcfd96e21310, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bed_02_B_Tex
+    second: {fileID: 2800000, guid: 83f50a98c100f9146a911cc8b931170e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bed_02_NRM
+    second: {fileID: 2800000, guid: 51c1a71f556462a428fe57d81fb7ffa5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bed_02_Tex
+    second: {fileID: 2800000, guid: f4fa95219fe69e54ead44b1634f4902b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bed_d
+    second: {fileID: 2800000, guid: 09837251eef9ca4449b3c5101804519a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bed_n
+    second: {fileID: 2800000, guid: 847ecc29c893aaa44802c420cfead63e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cloth02_Tex
+    second: {fileID: 2800000, guid: 044d2376b57543f408f8f6081e542b0d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mattress_SM_Cult_Prop_Bed_BaseColor
+    second: {fileID: 2800000, guid: 432d0da2ff1d392439b8fff3296d9a27, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mattress_SM_Cult_Prop_Bed_Normal
+    second: {fileID: 2800000, guid: 7fa96040c14e0574cbb133a3b11093d2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_Hotel_Bed_02_B_mat_BaseColor
+    second: {fileID: 2800000, guid: 61903820bae037843a95b7a9b22fe2ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_Hotel_Bed_02_B_mat_Normal
+    second: {fileID: 2800000, guid: bc34621f9522c77429a9a49a1d227470, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TX_Furn_BedRough_D
+    second: {fileID: 2800000, guid: 9e6f135a9eaf5d741a96537b85398991, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TX_Furn_BedRough_N
+    second: {fileID: 2800000, guid: b02378032a09d164cbaf53424bd2e082, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TX_Furn_BunkBedWood_01_A_D
+    second: {fileID: 2800000, guid: 61200448f9bb0614f99ba98c53e73e70, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TX_Furn_BunkBedWood_01_A_N
+    second: {fileID: 2800000, guid: 91c0df9bf5eceef43a1a67d2f9c9e796, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Bed_01_A_Diff
+    second: {fileID: 2800000, guid: 4fea355c01b9f5f4fac6b6f9efe21e6e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Bed_01_A_Norm
+    second: {fileID: 2800000, guid: e3df4211678702441ada822182074055, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Bed_01_Fabric_Blue_01_Diff
+    second: {fileID: 2800000, guid: d1e0c5a30f8d2ed459530c97d0a74934, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Bed_01_Fabric_Blue_01_Norm
+    second: {fileID: 2800000, guid: 978216788797224428774a8c74e48430, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Bed_01_Fabric_Blue_02_Diff
+    second: {fileID: 2800000, guid: 0f2069726ded78e49a4d9243bd62e2f6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Bed_01_Fabric_Blue_02_Norm
+    second: {fileID: 2800000, guid: 7f96b390e2d481e4595025f221e325d2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Bedframe_Albedo
+    second: {fileID: 2800000, guid: efd541f51a774e24fb7e9a06b8ac8910, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Bedframe_Normal
+    second: {fileID: 2800000, guid: 90f2a1c5dde3d53429efdecd90cc16e1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Bedsheet_Albedo
+    second: {fileID: 2800000, guid: 256d4538d9021004298423194475a59b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Bedsheet_Normal
+    second: {fileID: 2800000, guid: 56eaa1fe71b55764ba56f4c38747d800, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Blanket1_N
+    second: {fileID: 2800000, guid: 3bceeda830b5a8f41b603b15bb0f8aac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_BorderTrimSheet_N
+    second: {fileID: 2800000, guid: e4775f41901e1834bbbe540c8ac92141, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_BorderTrimSheet_Tex
+    second: {fileID: 2800000, guid: e08fe44c92d95c74a911960a1d383414, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Duvet_Albedo
+    second: {fileID: 2800000, guid: cced68d95c198774fa6add5bc7a0dfb6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Duvet_Normal
+    second: {fileID: 2800000, guid: 7f81a416bb93e9d48a7ca6a635d92210, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Pillow_Albedo
+    second: {fileID: 2800000, guid: 897e13f86eb5e154b9a6cd0cd4e4734b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Pillow_Normal
+    second: {fileID: 2800000, guid: c3f0109e5d5c29641bfb9609297304e2, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 0
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
