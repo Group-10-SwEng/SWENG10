@@ -164,6 +164,10 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics__117.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics__118.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics__119.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics__12.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics__13.cpp">
@@ -664,6 +668,12 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs__23.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs__230.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs__231.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs__232.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs__24.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs__25.cpp">
@@ -1018,6 +1028,8 @@
     <ClCompile Include="Source\il2cppOutput\Unity.XR.ARFoundation.InternalUtils.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.ARFoundation.VisualScripting.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.ARFoundation__1.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.ARSubsystems.cpp">
     </ClCompile>

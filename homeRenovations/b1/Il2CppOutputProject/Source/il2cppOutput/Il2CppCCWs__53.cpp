@@ -12,34 +12,37 @@
 #include "utils/New.h"
 
 
-struct IEqualityComparer_1_tD7E82F55A300BA6C4864FD22700490C0D9CF9898;
-struct IEqualityComparer_1_t7B7B86B5864C0BA216CDD316C0263BC0A93204AF;
-struct IEqualityComparer_1_t0C30D40D1D05AE59EA63C24DBF582A788E026FDF;
-struct IEqualityComparer_1_t4034759C70620F1AC25C278375662245E31606A8;
-struct KeyCollection_t60FD12A3C40721327460B369781F2A1FD51B8078;
-struct KeyCollection_t8967CA4CDBD345EF0C35132A19E8F8F2CED3175D;
-struct KeyCollection_tC6FC39399FDDF5ACBC9D601EDE4A97DE21E95F8A;
-struct KeyCollection_t12F85AB2812C5D42036BC322038FA7A8CF320710;
-struct KeyCollection_tE7C28105EC9C87DD3C6A86103B4967C1AE89B5F1;
-struct KeyCollection_t2CDC5C86100E6EC2934947F01D7141282894E974;
-struct KeyCollection_t1190F853DE27FE1F24689270FB838307146AE757;
-struct ValueCollection_t9E5D68C60459F8ACE0A0C6B8EF55A69ED2C83283;
-struct ValueCollection_tA20C25A481B5FEA5D546B50D3CF9416500F22CB5;
-struct ValueCollection_tE9EF826498D477BC24D0E280FDADBC10602EB8F2;
-struct ValueCollection_tE989D67A787AFE994B821425D9CA8DEE3331FADA;
-struct ValueCollection_tB2CE44D4A505A2DB67F27831ED268440A74023D2;
-struct ValueCollection_t9A6AB83680EFD2A0ED16F3D3401AF65D81CBAD04;
-struct ValueCollection_t18721DD993062092BA434853C82EEFD06FD2E0C1;
-struct EntryU5BU5D_t0AC2D2B2E42EBBCA6FD0C4DA6D0E0BB2CF0D99B5;
-struct EntryU5BU5D_tEE38FBBF443732AD2597BD7D3F525BDCCB299057;
-struct EntryU5BU5D_tDC4D6CD057F94DC3B154581458A2695F120B0CE5;
-struct EntryU5BU5D_tB68F6555A209C7CD6B4C29C977BC00A1A26763A5;
-struct EntryU5BU5D_t9904C87735D27B1FB10E167357BAB37A2A2E2931;
-struct EntryU5BU5D_tFFB221555275F56193561A3C45A9E2A42973F45D;
-struct EntryU5BU5D_t47F4339A1B954F03B75450CFB6A7BD48A61BDFF9;
+struct IEqualityComparer_1_t0BB8211419723EB61BF19007AC9D62365E50500E;
+struct IEqualityComparer_1_t958EAC5D5BD188327B4736D6F82A08EA1476A4C8;
+struct IEqualityComparer_1_t0093267684ED46D77C6C9BE38ADE9867D8FA2034;
+struct IEqualityComparer_1_t8CD6C0FF1780A1D009FF0D9829F1371C708F8B1B;
+struct IEqualityComparer_1_t9E98CD5E012FAD3C745699045489B5B858B1B8B5;
+struct KeyCollection_t13EBAB3D3E1C1D0516B35021A0ED42367C15572C;
+struct KeyCollection_t897986D345FB4F917F42257603EA98452A117E9E;
+struct KeyCollection_tCF169B05D74DB258617AD23E946B6DAF4ADEF3C4;
+struct KeyCollection_t47D62DDEE51AABADF152CFC32CA58FB84CDA10E8;
+struct KeyCollection_t390544EF57BC256EC921BF9C3E8979D723712E84;
+struct KeyCollection_tE74D654B31216599243F5499AA51D672292A6851;
+struct KeyCollection_t01FC4F65DAAD127AF4022127E61C6449A0589146;
+struct ValueCollection_t018154B24774097E7CC573B84A4370DA87DD222B;
+struct ValueCollection_t39E5B1D70D8383DFB82C929B3A433BF43DD13625;
+struct ValueCollection_t127319FB40AEB5A20DC1637D50EDA12884854D1E;
+struct ValueCollection_t24BE9A80DDB882A89803A4F065795D5EE9CDFD62;
+struct ValueCollection_t780B21F6CC6FCBEBF6EB34B9DBEC5C1F625B5638;
+struct ValueCollection_t65F0931BB8199A85426F468967F13738049D3969;
+struct ValueCollection_t0C0B26EF4DDEF34A73D1482EFB5E513B82F27A77;
+struct EntryU5BU5D_t524FB57F4275986E1E35D3A27037859378EC3E9F;
+struct EntryU5BU5D_tF144ACE6249B861D0360435A99A1081AC08BF7CD;
+struct EntryU5BU5D_tF5AE20C6C1AB0FB8928FDF5E9DA6AA824571822C;
+struct EntryU5BU5D_t5A8A61506B2A01F6F4D9CED0E824EFA224C652CD;
+struct EntryU5BU5D_t1E2048CF63C65D21449B2049951F73F1EA5DD692;
+struct EntryU5BU5D_t3B160AF749C4DBE0A0A371D938394ED85BAC4D62;
+struct EntryU5BU5D_tF62E36C6522D5BC1D06D027F9CA1ACCEAAFC369E;
 struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
 
 struct IBindableIterator_t63CCD2268CEE8AFAB68518869D47C5BDAF72962F;
+struct IIterator_1_t3C34BE234BDBA613733B073FC912621544C2A79F;
+struct IMapView_2_t3E6A9383545D552535CCF55911D3CD909308766D;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -50,100 +53,124 @@ IL2CPP_EXTERN_C_END
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+struct NOVTABLE IIterable_1_tDD614376C4294C587A57B87A50D6C0A19E5758FF : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IIterable_1_First_mE14E250FA961D0468224413CB78026261F1111C7(IIterator_1_t3C34BE234BDBA613733B073FC912621544C2A79F** comReturnValue) = 0;
+};
+struct NOVTABLE IMapView_2_t3E6A9383545D552535CCF55911D3CD909308766D : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMapView_2_Lookup_m826E69CA64F17207A4BDD21FE5BD0DB62B36084F(uint64_t ___0_key, bool* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMapView_2_get_Size_m483221B10D032C11E22802AF2F381654436F03D6(uint32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMapView_2_HasKey_m8C297619FDFCA966AC980C1D5C016D34F6C3417F(uint64_t ___0_key, bool* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMapView_2_Split_mF59B65923CB34534134222A04B43B4E19DDEA52C(IMapView_2_t3E6A9383545D552535CCF55911D3CD909308766D** ___0_first, IMapView_2_t3E6A9383545D552535CCF55911D3CD909308766D** ___1_second) = 0;
+};
+struct NOVTABLE IMap_2_t56F6A2B3EB0CEF00B4F6E6EBC8CC832555001AF9 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMap_2_Lookup_m7A4B58C9E1DBF91AB97164DC7D9D46DA46413C8F(uint64_t ___0_key, bool* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMap_2_get_Size_mFBDBEBE799E2CAE0703A553CF4F1EFC822EA6E32(uint32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMap_2_HasKey_mEF1A43FD79589BE5764F7E25D57E19921AB46A7C(uint64_t ___0_key, bool* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMap_2_GetView_mA7B69C9337B089EEAF02A5DF134F66A4A385BB5F(IMapView_2_t3E6A9383545D552535CCF55911D3CD909308766D** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMap_2_Insert_mAE17418784740E79FBB5EFD8EC9ABB60E058D0E4(uint64_t ___0_key, bool ___1_value, bool* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMap_2_Remove_m20ADDC6EF011E9403EB80AD2B050B885825C275E(uint64_t ___0_key) = 0;
+	virtual il2cpp_hresult_t STDCALL IMap_2_Clear_mEC269ED97C2BBAB901B88A6E14A509BA56AB94C5() = 0;
+};
 struct NOVTABLE IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
 	virtual il2cpp_hresult_t STDCALL IBindableIterable_First_mE23AC28EC9ADCDD2688247217CF40C800E780B97(IBindableIterator_t63CCD2268CEE8AFAB68518869D47C5BDAF72962F** comReturnValue) = 0;
 };
-struct Dictionary_2_t8F4A5610E119BDE372C454C340609D6FFADFCEEE  : public RuntimeObject
+struct Dictionary_2_tDE8FAF4CAC415F7871ED1DBA452249683C3C7C27  : public RuntimeObject
 {
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
-	EntryU5BU5D_t0AC2D2B2E42EBBCA6FD0C4DA6D0E0BB2CF0D99B5* ____entries;
+	EntryU5BU5D_t524FB57F4275986E1E35D3A27037859378EC3E9F* ____entries;
 	int32_t ____count;
 	int32_t ____freeList;
 	int32_t ____freeCount;
 	int32_t ____version;
 	RuntimeObject* ____comparer;
-	KeyCollection_t60FD12A3C40721327460B369781F2A1FD51B8078* ____keys;
-	ValueCollection_t9E5D68C60459F8ACE0A0C6B8EF55A69ED2C83283* ____values;
+	KeyCollection_t13EBAB3D3E1C1D0516B35021A0ED42367C15572C* ____keys;
+	ValueCollection_t018154B24774097E7CC573B84A4370DA87DD222B* ____values;
 	RuntimeObject* ____syncRoot;
 };
-struct Dictionary_2_tEDCA4C5AE21020E1B45089C5EAD272282510E0D6  : public RuntimeObject
+struct Dictionary_2_t9F1806E717860146F88E53EA3FA844A5B8AE4EC5  : public RuntimeObject
 {
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
-	EntryU5BU5D_tEE38FBBF443732AD2597BD7D3F525BDCCB299057* ____entries;
+	EntryU5BU5D_tF144ACE6249B861D0360435A99A1081AC08BF7CD* ____entries;
 	int32_t ____count;
 	int32_t ____freeList;
 	int32_t ____freeCount;
 	int32_t ____version;
 	RuntimeObject* ____comparer;
-	KeyCollection_t8967CA4CDBD345EF0C35132A19E8F8F2CED3175D* ____keys;
-	ValueCollection_tA20C25A481B5FEA5D546B50D3CF9416500F22CB5* ____values;
+	KeyCollection_t897986D345FB4F917F42257603EA98452A117E9E* ____keys;
+	ValueCollection_t39E5B1D70D8383DFB82C929B3A433BF43DD13625* ____values;
 	RuntimeObject* ____syncRoot;
 };
-struct Dictionary_2_tFE5F76A37152304D01BB6476659D5D42230E8525  : public RuntimeObject
+struct Dictionary_2_tCE4406EB4D1889C33754C40067E98390FE99F8C5  : public RuntimeObject
 {
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
-	EntryU5BU5D_tDC4D6CD057F94DC3B154581458A2695F120B0CE5* ____entries;
+	EntryU5BU5D_tF5AE20C6C1AB0FB8928FDF5E9DA6AA824571822C* ____entries;
 	int32_t ____count;
 	int32_t ____freeList;
 	int32_t ____freeCount;
 	int32_t ____version;
 	RuntimeObject* ____comparer;
-	KeyCollection_tC6FC39399FDDF5ACBC9D601EDE4A97DE21E95F8A* ____keys;
-	ValueCollection_tE9EF826498D477BC24D0E280FDADBC10602EB8F2* ____values;
+	KeyCollection_tCF169B05D74DB258617AD23E946B6DAF4ADEF3C4* ____keys;
+	ValueCollection_t127319FB40AEB5A20DC1637D50EDA12884854D1E* ____values;
 	RuntimeObject* ____syncRoot;
 };
-struct Dictionary_2_t1DFDA436532AA3D0B30D907014ED6A6EE883ECFC  : public RuntimeObject
+struct Dictionary_2_t0AF08A1FB3BA921D8096283529C9C35B921B6328  : public RuntimeObject
 {
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
-	EntryU5BU5D_tB68F6555A209C7CD6B4C29C977BC00A1A26763A5* ____entries;
+	EntryU5BU5D_t5A8A61506B2A01F6F4D9CED0E824EFA224C652CD* ____entries;
 	int32_t ____count;
 	int32_t ____freeList;
 	int32_t ____freeCount;
 	int32_t ____version;
 	RuntimeObject* ____comparer;
-	KeyCollection_t12F85AB2812C5D42036BC322038FA7A8CF320710* ____keys;
-	ValueCollection_tE989D67A787AFE994B821425D9CA8DEE3331FADA* ____values;
+	KeyCollection_t47D62DDEE51AABADF152CFC32CA58FB84CDA10E8* ____keys;
+	ValueCollection_t24BE9A80DDB882A89803A4F065795D5EE9CDFD62* ____values;
 	RuntimeObject* ____syncRoot;
 };
-struct Dictionary_2_t9D8B45902B8598ACAD4237662899105022C27857  : public RuntimeObject
+struct Dictionary_2_tC28B5F3F34408BE2E94CAE8F26AE095C3795DF8A  : public RuntimeObject
 {
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
-	EntryU5BU5D_t9904C87735D27B1FB10E167357BAB37A2A2E2931* ____entries;
+	EntryU5BU5D_t1E2048CF63C65D21449B2049951F73F1EA5DD692* ____entries;
 	int32_t ____count;
 	int32_t ____freeList;
 	int32_t ____freeCount;
 	int32_t ____version;
 	RuntimeObject* ____comparer;
-	KeyCollection_tE7C28105EC9C87DD3C6A86103B4967C1AE89B5F1* ____keys;
-	ValueCollection_tB2CE44D4A505A2DB67F27831ED268440A74023D2* ____values;
+	KeyCollection_t390544EF57BC256EC921BF9C3E8979D723712E84* ____keys;
+	ValueCollection_t780B21F6CC6FCBEBF6EB34B9DBEC5C1F625B5638* ____values;
 	RuntimeObject* ____syncRoot;
 };
-struct Dictionary_2_tD1F08688D47D3D575914BE84E0C06A9676ABB7B9  : public RuntimeObject
+struct Dictionary_2_t6BDF6C6A51DC0496650EFFE508AA26D693F3D540  : public RuntimeObject
 {
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
-	EntryU5BU5D_tFFB221555275F56193561A3C45A9E2A42973F45D* ____entries;
+	EntryU5BU5D_t3B160AF749C4DBE0A0A371D938394ED85BAC4D62* ____entries;
 	int32_t ____count;
 	int32_t ____freeList;
 	int32_t ____freeCount;
 	int32_t ____version;
 	RuntimeObject* ____comparer;
-	KeyCollection_t2CDC5C86100E6EC2934947F01D7141282894E974* ____keys;
-	ValueCollection_t9A6AB83680EFD2A0ED16F3D3401AF65D81CBAD04* ____values;
+	KeyCollection_tE74D654B31216599243F5499AA51D672292A6851* ____keys;
+	ValueCollection_t65F0931BB8199A85426F468967F13738049D3969* ____values;
 	RuntimeObject* ____syncRoot;
 };
-struct Dictionary_2_t27925A4746D3D6359C604F4CFDFDDDAA4D67D62D  : public RuntimeObject
+struct Dictionary_2_tCCC3D5D314E064269ED3724D3E1F4E00574ED144  : public RuntimeObject
 {
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
-	EntryU5BU5D_t47F4339A1B954F03B75450CFB6A7BD48A61BDFF9* ____entries;
+	EntryU5BU5D_tF62E36C6522D5BC1D06D027F9CA1ACCEAAFC369E* ____entries;
 	int32_t ____count;
 	int32_t ____freeList;
 	int32_t ____freeCount;
 	int32_t ____version;
 	RuntimeObject* ____comparer;
-	KeyCollection_t1190F853DE27FE1F24689270FB838307146AE757* ____keys;
-	ValueCollection_t18721DD993062092BA434853C82EEFD06FD2E0C1* ____values;
+	KeyCollection_t01FC4F65DAAD127AF4022127E61C6449A0589146* ____keys;
+	ValueCollection_t0C0B26EF4DDEF34A73D1482EFB5E513B82F27A77* ____values;
 	RuntimeObject* ____syncRoot;
 };
 #ifdef __clang__
@@ -151,12 +178,24 @@ struct Dictionary_2_t27925A4746D3D6359C604F4CFDFDDDAA4D67D62D  : public RuntimeO
 #endif
 
 il2cpp_hresult_t IBindableIterable_First_mE23AC28EC9ADCDD2688247217CF40C800E780B97_ComCallableWrapperProjectedMethod(RuntimeObject* __this, IBindableIterator_t63CCD2268CEE8AFAB68518869D47C5BDAF72962F** comReturnValue);
+il2cpp_hresult_t IMap_2_Lookup_m7A4B58C9E1DBF91AB97164DC7D9D46DA46413C8F_ComCallableWrapperProjectedMethod(RuntimeObject* __this, uint64_t ___0_key, bool* comReturnValue);
+il2cpp_hresult_t IMap_2_get_Size_mFBDBEBE799E2CAE0703A553CF4F1EFC822EA6E32_ComCallableWrapperProjectedMethod(RuntimeObject* __this, uint32_t* comReturnValue);
+il2cpp_hresult_t IMap_2_HasKey_mEF1A43FD79589BE5764F7E25D57E19921AB46A7C_ComCallableWrapperProjectedMethod(RuntimeObject* __this, uint64_t ___0_key, bool* comReturnValue);
+il2cpp_hresult_t IMap_2_GetView_mA7B69C9337B089EEAF02A5DF134F66A4A385BB5F_ComCallableWrapperProjectedMethod(RuntimeObject* __this, IMapView_2_t3E6A9383545D552535CCF55911D3CD909308766D** comReturnValue);
+il2cpp_hresult_t IMap_2_Insert_mAE17418784740E79FBB5EFD8EC9ABB60E058D0E4_ComCallableWrapperProjectedMethod(RuntimeObject* __this, uint64_t ___0_key, bool ___1_value, bool* comReturnValue);
+il2cpp_hresult_t IMap_2_Remove_m20ADDC6EF011E9403EB80AD2B050B885825C275E_ComCallableWrapperProjectedMethod(RuntimeObject* __this, uint64_t ___0_key);
+il2cpp_hresult_t IMap_2_Clear_mEC269ED97C2BBAB901B88A6E14A509BA56AB94C5_ComCallableWrapperProjectedMethod(RuntimeObject* __this);
+il2cpp_hresult_t IIterable_1_First_mE14E250FA961D0468224413CB78026261F1111C7_ComCallableWrapperProjectedMethod(RuntimeObject* __this, IIterator_1_t3C34BE234BDBA613733B073FC912621544C2A79F** comReturnValue);
+il2cpp_hresult_t IMapView_2_Lookup_m826E69CA64F17207A4BDD21FE5BD0DB62B36084F_ComCallableWrapperProjectedMethod(RuntimeObject* __this, uint64_t ___0_key, bool* comReturnValue);
+il2cpp_hresult_t IMapView_2_get_Size_m483221B10D032C11E22802AF2F381654436F03D6_ComCallableWrapperProjectedMethod(RuntimeObject* __this, uint32_t* comReturnValue);
+il2cpp_hresult_t IMapView_2_HasKey_m8C297619FDFCA966AC980C1D5C016D34F6C3417F_ComCallableWrapperProjectedMethod(RuntimeObject* __this, uint64_t ___0_key, bool* comReturnValue);
+il2cpp_hresult_t IMapView_2_Split_mF59B65923CB34534134222A04B43B4E19DDEA52C_ComCallableWrapperProjectedMethod(RuntimeObject* __this, IMapView_2_t3E6A9383545D552535CCF55911D3CD909308766D** ___0_first, IMapView_2_t3E6A9383545D552535CCF55911D3CD909308766D** ___1_second);
 
 
 
-struct Dictionary_2_t8F4A5610E119BDE372C454C340609D6FFADFCEEE_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_t8F4A5610E119BDE372C454C340609D6FFADFCEEE_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
+struct Dictionary_2_tDE8FAF4CAC415F7871ED1DBA452249683C3C7C27_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_tDE8FAF4CAC415F7871ED1DBA452249683C3C7C27_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
 {
-	inline Dictionary_2_t8F4A5610E119BDE372C454C340609D6FFADFCEEE_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_t8F4A5610E119BDE372C454C340609D6FFADFCEEE_ComCallableWrapper>(obj) {}
+	inline Dictionary_2_tDE8FAF4CAC415F7871ED1DBA452249683C3C7C27_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_tDE8FAF4CAC415F7871ED1DBA452249683C3C7C27_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -237,20 +276,20 @@ struct Dictionary_2_t8F4A5610E119BDE372C454C340609D6FFADFCEEE_ComCallableWrapper
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_t8F4A5610E119BDE372C454C340609D6FFADFCEEE(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_tDE8FAF4CAC415F7871ED1DBA452249683C3C7C27(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_t8F4A5610E119BDE372C454C340609D6FFADFCEEE_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_tDE8FAF4CAC415F7871ED1DBA452249683C3C7C27_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_t8F4A5610E119BDE372C454C340609D6FFADFCEEE_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_tDE8FAF4CAC415F7871ED1DBA452249683C3C7C27_ComCallableWrapper(obj));
 }
 
-struct Dictionary_2_tEDCA4C5AE21020E1B45089C5EAD272282510E0D6_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_tEDCA4C5AE21020E1B45089C5EAD272282510E0D6_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
+struct Dictionary_2_t9F1806E717860146F88E53EA3FA844A5B8AE4EC5_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_t9F1806E717860146F88E53EA3FA844A5B8AE4EC5_ComCallableWrapper>, IMap_2_t56F6A2B3EB0CEF00B4F6E6EBC8CC832555001AF9, IIterable_1_tDD614376C4294C587A57B87A50D6C0A19E5758FF, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C, IMapView_2_t3E6A9383545D552535CCF55911D3CD909308766D
 {
-	inline Dictionary_2_tEDCA4C5AE21020E1B45089C5EAD272282510E0D6_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_tEDCA4C5AE21020E1B45089C5EAD272282510E0D6_ComCallableWrapper>(obj) {}
+	inline Dictionary_2_t9F1806E717860146F88E53EA3FA844A5B8AE4EC5_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_t9F1806E717860146F88E53EA3FA844A5B8AE4EC5_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -270,9 +309,30 @@ struct Dictionary_2_tEDCA4C5AE21020E1B45089C5EAD272282510E0D6_ComCallableWrapper
 			return IL2CPP_S_OK;
 		}
 
+		if (::memcmp(&iid, &IMap_2_t56F6A2B3EB0CEF00B4F6E6EBC8CC832555001AF9::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<IMap_2_t56F6A2B3EB0CEF00B4F6E6EBC8CC832555001AF9*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &IIterable_1_tDD614376C4294C587A57B87A50D6C0A19E5758FF::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<IIterable_1_tDD614376C4294C587A57B87A50D6C0A19E5758FF*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
 		if (::memcmp(&iid, &IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C::IID, sizeof(Il2CppGuid)) == 0)
 		{
 			*object = static_cast<IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &IMapView_2_t3E6A9383545D552535CCF55911D3CD909308766D::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<IMapView_2_t3E6A9383545D552535CCF55911D3CD909308766D*>(this);
 			AddRefImpl();
 			return IL2CPP_S_OK;
 		}
@@ -307,10 +367,13 @@ struct Dictionary_2_tEDCA4C5AE21020E1B45089C5EAD272282510E0D6_ComCallableWrapper
 
 	virtual il2cpp_hresult_t STDCALL GetIids(uint32_t* iidCount, Il2CppGuid** iids) IL2CPP_OVERRIDE
 	{
-		Il2CppGuid* interfaceIds = il2cpp_codegen_marshal_allocate_array<Il2CppGuid>(1);
-		interfaceIds[0] = IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C::IID;
+		Il2CppGuid* interfaceIds = il2cpp_codegen_marshal_allocate_array<Il2CppGuid>(4);
+		interfaceIds[0] = IMap_2_t56F6A2B3EB0CEF00B4F6E6EBC8CC832555001AF9::IID;
+		interfaceIds[1] = IIterable_1_tDD614376C4294C587A57B87A50D6C0A19E5758FF::IID;
+		interfaceIds[2] = IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C::IID;
+		interfaceIds[3] = IMapView_2_t3E6A9383545D552535CCF55911D3CD909308766D::IID;
 
-		*iidCount = 1;
+		*iidCount = 4;
 		*iids = interfaceIds;
 		return IL2CPP_S_OK;
 	}
@@ -325,26 +388,86 @@ struct Dictionary_2_tEDCA4C5AE21020E1B45089C5EAD272282510E0D6_ComCallableWrapper
 		return ComObjectBase::GetTrustLevel(trustLevel);
 	}
 
+	virtual il2cpp_hresult_t STDCALL IMap_2_Lookup_m7A4B58C9E1DBF91AB97164DC7D9D46DA46413C8F(uint64_t ___0_key, bool* comReturnValue) IL2CPP_OVERRIDE
+	{
+		return IMap_2_Lookup_m7A4B58C9E1DBF91AB97164DC7D9D46DA46413C8F_ComCallableWrapperProjectedMethod(GetManagedObjectInline(), ___0_key, comReturnValue);
+	}
+
+	virtual il2cpp_hresult_t STDCALL IMap_2_get_Size_mFBDBEBE799E2CAE0703A553CF4F1EFC822EA6E32(uint32_t* comReturnValue) IL2CPP_OVERRIDE
+	{
+		return IMap_2_get_Size_mFBDBEBE799E2CAE0703A553CF4F1EFC822EA6E32_ComCallableWrapperProjectedMethod(GetManagedObjectInline(), comReturnValue);
+	}
+
+	virtual il2cpp_hresult_t STDCALL IMap_2_HasKey_mEF1A43FD79589BE5764F7E25D57E19921AB46A7C(uint64_t ___0_key, bool* comReturnValue) IL2CPP_OVERRIDE
+	{
+		return IMap_2_HasKey_mEF1A43FD79589BE5764F7E25D57E19921AB46A7C_ComCallableWrapperProjectedMethod(GetManagedObjectInline(), ___0_key, comReturnValue);
+	}
+
+	virtual il2cpp_hresult_t STDCALL IMap_2_GetView_mA7B69C9337B089EEAF02A5DF134F66A4A385BB5F(IMapView_2_t3E6A9383545D552535CCF55911D3CD909308766D** comReturnValue) IL2CPP_OVERRIDE
+	{
+		return IMap_2_GetView_mA7B69C9337B089EEAF02A5DF134F66A4A385BB5F_ComCallableWrapperProjectedMethod(GetManagedObjectInline(), comReturnValue);
+	}
+
+	virtual il2cpp_hresult_t STDCALL IMap_2_Insert_mAE17418784740E79FBB5EFD8EC9ABB60E058D0E4(uint64_t ___0_key, bool ___1_value, bool* comReturnValue) IL2CPP_OVERRIDE
+	{
+		return IMap_2_Insert_mAE17418784740E79FBB5EFD8EC9ABB60E058D0E4_ComCallableWrapperProjectedMethod(GetManagedObjectInline(), ___0_key, ___1_value, comReturnValue);
+	}
+
+	virtual il2cpp_hresult_t STDCALL IMap_2_Remove_m20ADDC6EF011E9403EB80AD2B050B885825C275E(uint64_t ___0_key) IL2CPP_OVERRIDE
+	{
+		return IMap_2_Remove_m20ADDC6EF011E9403EB80AD2B050B885825C275E_ComCallableWrapperProjectedMethod(GetManagedObjectInline(), ___0_key);
+	}
+
+	virtual il2cpp_hresult_t STDCALL IMap_2_Clear_mEC269ED97C2BBAB901B88A6E14A509BA56AB94C5() IL2CPP_OVERRIDE
+	{
+		return IMap_2_Clear_mEC269ED97C2BBAB901B88A6E14A509BA56AB94C5_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
+	}
+
+	virtual il2cpp_hresult_t STDCALL IIterable_1_First_mE14E250FA961D0468224413CB78026261F1111C7(IIterator_1_t3C34BE234BDBA613733B073FC912621544C2A79F** comReturnValue) IL2CPP_OVERRIDE
+	{
+		return IIterable_1_First_mE14E250FA961D0468224413CB78026261F1111C7_ComCallableWrapperProjectedMethod(GetManagedObjectInline(), comReturnValue);
+	}
+
 	virtual il2cpp_hresult_t STDCALL IBindableIterable_First_mE23AC28EC9ADCDD2688247217CF40C800E780B97(IBindableIterator_t63CCD2268CEE8AFAB68518869D47C5BDAF72962F** comReturnValue) IL2CPP_OVERRIDE
 	{
 		return IBindableIterable_First_mE23AC28EC9ADCDD2688247217CF40C800E780B97_ComCallableWrapperProjectedMethod(GetManagedObjectInline(), comReturnValue);
 	}
+
+	virtual il2cpp_hresult_t STDCALL IMapView_2_Lookup_m826E69CA64F17207A4BDD21FE5BD0DB62B36084F(uint64_t ___0_key, bool* comReturnValue) IL2CPP_OVERRIDE
+	{
+		return IMapView_2_Lookup_m826E69CA64F17207A4BDD21FE5BD0DB62B36084F_ComCallableWrapperProjectedMethod(GetManagedObjectInline(), ___0_key, comReturnValue);
+	}
+
+	virtual il2cpp_hresult_t STDCALL IMapView_2_get_Size_m483221B10D032C11E22802AF2F381654436F03D6(uint32_t* comReturnValue) IL2CPP_OVERRIDE
+	{
+		return IMapView_2_get_Size_m483221B10D032C11E22802AF2F381654436F03D6_ComCallableWrapperProjectedMethod(GetManagedObjectInline(), comReturnValue);
+	}
+
+	virtual il2cpp_hresult_t STDCALL IMapView_2_HasKey_m8C297619FDFCA966AC980C1D5C016D34F6C3417F(uint64_t ___0_key, bool* comReturnValue) IL2CPP_OVERRIDE
+	{
+		return IMapView_2_HasKey_m8C297619FDFCA966AC980C1D5C016D34F6C3417F_ComCallableWrapperProjectedMethod(GetManagedObjectInline(), ___0_key, comReturnValue);
+	}
+
+	virtual il2cpp_hresult_t STDCALL IMapView_2_Split_mF59B65923CB34534134222A04B43B4E19DDEA52C(IMapView_2_t3E6A9383545D552535CCF55911D3CD909308766D** ___0_first, IMapView_2_t3E6A9383545D552535CCF55911D3CD909308766D** ___1_second) IL2CPP_OVERRIDE
+	{
+		return IMapView_2_Split_mF59B65923CB34534134222A04B43B4E19DDEA52C_ComCallableWrapperProjectedMethod(GetManagedObjectInline(), ___0_first, ___1_second);
+	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_tEDCA4C5AE21020E1B45089C5EAD272282510E0D6(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_t9F1806E717860146F88E53EA3FA844A5B8AE4EC5(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_tEDCA4C5AE21020E1B45089C5EAD272282510E0D6_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_t9F1806E717860146F88E53EA3FA844A5B8AE4EC5_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_tEDCA4C5AE21020E1B45089C5EAD272282510E0D6_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_t9F1806E717860146F88E53EA3FA844A5B8AE4EC5_ComCallableWrapper(obj));
 }
 
-struct Dictionary_2_tFE5F76A37152304D01BB6476659D5D42230E8525_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_tFE5F76A37152304D01BB6476659D5D42230E8525_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
+struct Dictionary_2_tCE4406EB4D1889C33754C40067E98390FE99F8C5_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_tCE4406EB4D1889C33754C40067E98390FE99F8C5_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
 {
-	inline Dictionary_2_tFE5F76A37152304D01BB6476659D5D42230E8525_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_tFE5F76A37152304D01BB6476659D5D42230E8525_ComCallableWrapper>(obj) {}
+	inline Dictionary_2_tCE4406EB4D1889C33754C40067E98390FE99F8C5_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_tCE4406EB4D1889C33754C40067E98390FE99F8C5_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -425,20 +548,20 @@ struct Dictionary_2_tFE5F76A37152304D01BB6476659D5D42230E8525_ComCallableWrapper
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_tFE5F76A37152304D01BB6476659D5D42230E8525(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_tCE4406EB4D1889C33754C40067E98390FE99F8C5(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_tFE5F76A37152304D01BB6476659D5D42230E8525_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_tCE4406EB4D1889C33754C40067E98390FE99F8C5_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_tFE5F76A37152304D01BB6476659D5D42230E8525_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_tCE4406EB4D1889C33754C40067E98390FE99F8C5_ComCallableWrapper(obj));
 }
 
-struct Dictionary_2_t1DFDA436532AA3D0B30D907014ED6A6EE883ECFC_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_t1DFDA436532AA3D0B30D907014ED6A6EE883ECFC_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
+struct Dictionary_2_t0AF08A1FB3BA921D8096283529C9C35B921B6328_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_t0AF08A1FB3BA921D8096283529C9C35B921B6328_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
 {
-	inline Dictionary_2_t1DFDA436532AA3D0B30D907014ED6A6EE883ECFC_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_t1DFDA436532AA3D0B30D907014ED6A6EE883ECFC_ComCallableWrapper>(obj) {}
+	inline Dictionary_2_t0AF08A1FB3BA921D8096283529C9C35B921B6328_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_t0AF08A1FB3BA921D8096283529C9C35B921B6328_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -519,20 +642,20 @@ struct Dictionary_2_t1DFDA436532AA3D0B30D907014ED6A6EE883ECFC_ComCallableWrapper
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_t1DFDA436532AA3D0B30D907014ED6A6EE883ECFC(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_t0AF08A1FB3BA921D8096283529C9C35B921B6328(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_t1DFDA436532AA3D0B30D907014ED6A6EE883ECFC_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_t0AF08A1FB3BA921D8096283529C9C35B921B6328_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_t1DFDA436532AA3D0B30D907014ED6A6EE883ECFC_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_t0AF08A1FB3BA921D8096283529C9C35B921B6328_ComCallableWrapper(obj));
 }
 
-struct Dictionary_2_t9D8B45902B8598ACAD4237662899105022C27857_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_t9D8B45902B8598ACAD4237662899105022C27857_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
+struct Dictionary_2_tC28B5F3F34408BE2E94CAE8F26AE095C3795DF8A_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_tC28B5F3F34408BE2E94CAE8F26AE095C3795DF8A_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
 {
-	inline Dictionary_2_t9D8B45902B8598ACAD4237662899105022C27857_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_t9D8B45902B8598ACAD4237662899105022C27857_ComCallableWrapper>(obj) {}
+	inline Dictionary_2_tC28B5F3F34408BE2E94CAE8F26AE095C3795DF8A_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_tC28B5F3F34408BE2E94CAE8F26AE095C3795DF8A_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -613,20 +736,20 @@ struct Dictionary_2_t9D8B45902B8598ACAD4237662899105022C27857_ComCallableWrapper
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_t9D8B45902B8598ACAD4237662899105022C27857(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_tC28B5F3F34408BE2E94CAE8F26AE095C3795DF8A(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_t9D8B45902B8598ACAD4237662899105022C27857_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_tC28B5F3F34408BE2E94CAE8F26AE095C3795DF8A_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_t9D8B45902B8598ACAD4237662899105022C27857_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_tC28B5F3F34408BE2E94CAE8F26AE095C3795DF8A_ComCallableWrapper(obj));
 }
 
-struct Dictionary_2_tD1F08688D47D3D575914BE84E0C06A9676ABB7B9_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_tD1F08688D47D3D575914BE84E0C06A9676ABB7B9_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
+struct Dictionary_2_t6BDF6C6A51DC0496650EFFE508AA26D693F3D540_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_t6BDF6C6A51DC0496650EFFE508AA26D693F3D540_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
 {
-	inline Dictionary_2_tD1F08688D47D3D575914BE84E0C06A9676ABB7B9_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_tD1F08688D47D3D575914BE84E0C06A9676ABB7B9_ComCallableWrapper>(obj) {}
+	inline Dictionary_2_t6BDF6C6A51DC0496650EFFE508AA26D693F3D540_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_t6BDF6C6A51DC0496650EFFE508AA26D693F3D540_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -707,20 +830,20 @@ struct Dictionary_2_tD1F08688D47D3D575914BE84E0C06A9676ABB7B9_ComCallableWrapper
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_tD1F08688D47D3D575914BE84E0C06A9676ABB7B9(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_t6BDF6C6A51DC0496650EFFE508AA26D693F3D540(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_tD1F08688D47D3D575914BE84E0C06A9676ABB7B9_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_t6BDF6C6A51DC0496650EFFE508AA26D693F3D540_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_tD1F08688D47D3D575914BE84E0C06A9676ABB7B9_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_t6BDF6C6A51DC0496650EFFE508AA26D693F3D540_ComCallableWrapper(obj));
 }
 
-struct Dictionary_2_t27925A4746D3D6359C604F4CFDFDDDAA4D67D62D_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_t27925A4746D3D6359C604F4CFDFDDDAA4D67D62D_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
+struct Dictionary_2_tCCC3D5D314E064269ED3724D3E1F4E00574ED144_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_tCCC3D5D314E064269ED3724D3E1F4E00574ED144_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
 {
-	inline Dictionary_2_t27925A4746D3D6359C604F4CFDFDDDAA4D67D62D_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_t27925A4746D3D6359C604F4CFDFDDDAA4D67D62D_ComCallableWrapper>(obj) {}
+	inline Dictionary_2_tCCC3D5D314E064269ED3724D3E1F4E00574ED144_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_tCCC3D5D314E064269ED3724D3E1F4E00574ED144_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -801,13 +924,13 @@ struct Dictionary_2_t27925A4746D3D6359C604F4CFDFDDDAA4D67D62D_ComCallableWrapper
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_t27925A4746D3D6359C604F4CFDFDDDAA4D67D62D(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_tCCC3D5D314E064269ED3724D3E1F4E00574ED144(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_t27925A4746D3D6359C604F4CFDFDDDAA4D67D62D_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_tCCC3D5D314E064269ED3724D3E1F4E00574ED144_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_t27925A4746D3D6359C604F4CFDFDDDAA4D67D62D_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_tCCC3D5D314E064269ED3724D3E1F4E00574ED144_ComCallableWrapper(obj));
 }

@@ -49,6 +49,7 @@ struct IntegratedSubsystem_1_tF93BC76362E85BDD215312162457BE510FC76D3B;
 struct IntegratedSubsystem_1_t3AB3A9BAB10A4D1420E63EEA50D40FEE65F41C03;
 struct List_1_t291997894B2B2DA81CD73E6D5913780EBFED4068;
 struct List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE;
+struct List_1_tEE09D0BD215A518344AF2985829C519B609B7B17;
 struct List_1_tB88E7361EE76DFB3EBB7FCD60CC59ACC3E48C284;
 struct List_1_t90832B88D7207769654164CC28440CF594CC397D;
 struct List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87;
@@ -57,6 +58,7 @@ struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
 struct InputDeviceU5BU5D_t1361FC6DDFE12D211F933B024E51B7E5CF073F63;
 struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct MeshInfoU5BU5D_t66EC9A8E4264CBD53E136BF96628DEC22D660030;
 struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
 struct XRNodeStateU5BU5D_tEC64805398059D44C2FBA68AABAEFFB262B93845;
 struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263;
@@ -98,8 +100,11 @@ IL2CPP_EXTERN_C RuntimeClass* InputDevices_t02B79FC19CEA9AC29A9945F5CDA6D790730F
 IL2CPP_EXTERN_C RuntimeClass* InputFeatureUsage_t1E251DC4F8CD697080F0F5D98388955AF8B87599_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* InputTracking_tA4F34D4D5EC8E560B56ED295177C040D9C9815F1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* MeshChangeState_t4CCBA82867A78CD1241B037198571A5365D7910C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TrackingStateEventType_tB20EB5D5E27ACC8D551C965C01143C58A99AAC3F_il2cpp_TypeInfo_var;
@@ -127,6 +132,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral726E3C457BDB29067B179DDEF38C1A489A2A5459
 IL2CPP_EXTERN_C String_t* _stringLiteral754BC8CC289786CFBEFC86F613F47EEC45C9D500;
 IL2CPP_EXTERN_C String_t* _stringLiteral84102F76CEAE29A2E33E4E0217B1E11BCDA39366;
 IL2CPP_EXTERN_C String_t* _stringLiteral8AA65A41D8DDA3F1BCA101FADDADFF30771776BF;
+IL2CPP_EXTERN_C String_t* _stringLiteral8D42D61EA6D5A201CA2B913F9FC16CBC0B8FCF88;
 IL2CPP_EXTERN_C String_t* _stringLiteral90778E65BEFB370548F8CFA394C23A045A0A07FF;
 IL2CPP_EXTERN_C String_t* _stringLiteral93F25E58DBA8A557F895FF1B78AD81FA02E26332;
 IL2CPP_EXTERN_C String_t* _stringLiteral95E9A1E3972FD2FE6576337B0060276E2CA5FFE3;
@@ -214,6 +220,9 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m81D40B541187099D5EDD207395C9F
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m90BE1F9C540971223AE0CE4E333ACFC27CDA0275_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m099EE1B978423A69DAE032836B6FC9A39F7D1EE6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArrayUnsafeUtility_GetUnsafePtr_TisMeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A_m99AC0C898B3F825635FF50C6DB949BF88F6EA791_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1__ctor_m64BC75DF089D38CCF7581DA1BBA2A6057451B4D1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* XRMeshSubsystem_TryGetMeshInfos_m05F584066A873F286C16B99A929C4B3B9AB58FD2_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -242,6 +251,13 @@ struct List_1_t291997894B2B2DA81CD73E6D5913780EBFED4068  : public RuntimeObject
 struct List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE  : public RuntimeObject
 {
 	InputDeviceU5BU5D_t1361FC6DDFE12D211F933B024E51B7E5CF073F63* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tEE09D0BD215A518344AF2985829C519B609B7B17  : public RuntimeObject
+{
+	MeshInfoU5BU5D_t66EC9A8E4264CBD53E136BF96628DEC22D660030* ____items;
 	int32_t ____size;
 	int32_t ____version;
 	RuntimeObject* ____syncRoot;
@@ -588,6 +604,10 @@ struct Enumerator_t2A0DD7C3F41DE0D8FD672B874BDDB066261ECB01
 	int32_t ____version;
 	InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD ____current;
 };
+struct Allocator_t996642592271AAD9EE688F142741D512C07B5824 
+{
+	int32_t ___value__;
+};
 struct AvailableTrackingData_t223756B90093C1B8974F04856043E3983BA37402 
 {
 	int32_t ___value__;
@@ -760,11 +780,31 @@ struct IntegratedSubsystemDescriptor_t9232963B842E01748A8E032928DC8E35DF00C10D_m
 {
 	intptr_t ___m_Ptr;
 };
+struct MeshChangeState_t4CCBA82867A78CD1241B037198571A5365D7910C 
+{
+	int32_t ___value__;
+};
+struct MeshGenerationOptions_t02F6B880FD3AA0855F170CB030CF01E037E02192 
+{
+	int32_t ___value__;
+};
 struct MeshGenerationStatus_t1F91400BEB3E9E6B4DC12A43C85006812BD28EDE 
 {
 	int32_t ___value__;
 };
+struct MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A 
+{
+	MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC ___U3CMeshIdU3Ek__BackingField;
+	uint64_t ___U3CTimestampU3Ek__BackingField;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CPositionU3Ek__BackingField;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___U3CRotationU3Ek__BackingField;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CScaleU3Ek__BackingField;
+};
 struct MeshVertexAttributes_t7FBD9FC3EF4E4828FDD3CF71BE710543E12EEAB3 
+{
+	int32_t ___value__;
+};
+struct NativeArrayOptions_t3E979EEF4B4840228A7692A97DA07553C6465F1D 
 {
 	int32_t ___value__;
 };
@@ -891,6 +931,12 @@ struct IntegratedSubsystem_1_tF93BC76362E85BDD215312162457BE510FC76D3B  : public
 struct IntegratedSubsystem_1_t3AB3A9BAB10A4D1420E63EEA50D40FEE65F41C03  : public IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3
 {
 };
+struct NativeArray_1_tA41870B57F75C8F0729AE0AC70060D0D7841D236 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
 };
@@ -947,6 +993,12 @@ struct MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C_marshaled_
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CPositionU3Ek__BackingField;
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___U3CRotationU3Ek__BackingField;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CScaleU3Ek__BackingField;
+};
+struct MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA 
+{
+	MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC ___U3CMeshIdU3Ek__BackingField;
+	int32_t ___U3CChangeStateU3Ek__BackingField;
+	int32_t ___U3CPriorityHintU3Ek__BackingField;
 };
 struct MulticastDelegate_t  : public Delegate_t
 {
@@ -1141,6 +1193,10 @@ struct List_1_t291997894B2B2DA81CD73E6D5913780EBFED4068_StaticFields
 struct List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE_StaticFields
 {
 	InputDeviceU5BU5D_t1361FC6DDFE12D211F933B024E51B7E5CF073F63* ___s_emptyArray;
+};
+struct List_1_tEE09D0BD215A518344AF2985829C519B609B7B17_StaticFields
+{
+	MeshInfoU5BU5D_t66EC9A8E4264CBD53E136BF96628DEC22D660030* ___s_emptyArray;
 };
 struct List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87_StaticFields
 {
@@ -1349,6 +1405,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntegratedSubsystem_1__ctor_mA130811A078
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntegratedSubsystemDescriptor_1__ctor_m94FAA0F6D63A0144035D2645AAE00202B36BE7DC_gshared (IntegratedSubsystemDescriptor_1_t70BCBD395B99126866E0354041C8DCD1CE80A714* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mE959103AFF340DAE4FFA216861988A12A1F3C805_gshared_inline (Action_1_tC58438B06CEC83E8978FB47AC67764F80F55DEA8* __this, MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_m64BC75DF089D38CCF7581DA1BBA2A6057451B4D1_gshared (NativeArray_1_tA41870B57F75C8F0729AE0AC70060D0D7841D236* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* NativeArrayUnsafeUtility_GetUnsafePtr_TisMeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A_m99AC0C898B3F825635FF50C6DB949BF88F6EA791_gshared (NativeArray_1_tA41870B57F75C8F0729AE0AC70060D0D7841D236 ___0_nativeArray, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_mC67F1777D1BE8E5CCAC796204C8BB51753C6FDE8_gshared (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* __this, InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD ___0_item, const RuntimeMethod* method) ;
 
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
@@ -1430,6 +1488,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t InputDevice_get_deviceId_mF3FFF56432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_IsValidId_m13527A66E7D03B0C9AA64C2FFCC4A2F3889756BB (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevices_IsDeviceValid_m3A26291DCB7733D1538DF700E4638BE9DF9A994A (uint64_t ___0_deviceId, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_get_isValid_mA908CF8195CECA44FF457430AFF9198C3FEC0948 (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputDevices_GetDeviceName_m0AC6649B2A6AF0394487068FC82DFFA6D33A3D92 (uint64_t ___0_deviceId, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputDevice_get_name_mAEA08A3755E715697022C54227556428CEF4E1CE (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t InputDevices_GetDeviceCharacteristics_m484271629C390D593B073791099D05EC8F45CDF9 (uint64_t ___0_deviceId, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t InputDevice_get_characteristics_mEEDC9AB2254C155C47B48848FECF347A87925ADB (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevices_SendHapticImpulse_mC965C7C6A20D28CD51EDFC5BE61E85D6505A74F7 (uint64_t ___0_deviceId, uint32_t ___1_channel, float ___2_amplitude, float ___3_duration, const RuntimeMethod* method) ;
@@ -1613,6 +1673,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455* MeshGenerationResult_get_MeshCollider_m07210E3B1723B5BA535250E2012755AAC46FB180_inline (MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MeshGenerationResult_get_Status_m392754927B1E28DB2E6078A212F8FCC013AC10C0_inline (MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MeshGenerationResult_get_Attributes_m62E3E9EC74240C37D818481B1243B3EB40424C6B_inline (MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t MeshGenerationResult_get_Timestamp_m3D0F0FD234467DF615695ECBB381AFE33030F6CE_inline (MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 MeshGenerationResult_get_Position_m72AE25CA3412AE3C653251095067B496CEC1617F_inline (MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 MeshGenerationResult_get_Rotation_mC27F07EC357E8B3EED94DBEE5365B33154941EE3_inline (MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 MeshGenerationResult_get_Scale_mA3CEB3EA848509F5B1A5525F40A45AA9CB8BD5D3_inline (MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C* __this, const RuntimeMethod* method) ;
@@ -1625,16 +1686,53 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector3_GetHashCode_mB084
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Quaternion_GetHashCode_m5F55C34C98E437376595E722BE4EB8A70434F049_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HashCodeHelper_Combine_mBF383AC565B49ACFCB9A0046504C40A8997BAEFD (int32_t ___0_hash1, int32_t ___1_hash2, int32_t ___2_hash3, int32_t ___3_hash4, int32_t ___4_hash5, int32_t ___5_hash6, int32_t ___6_hash7, int32_t ___7_hash8, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeshGenerationResult_GetHashCode_mA542C935FE2ABB8EC0A3CE001267176095F7DCBC (MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC MeshInfo_get_MeshId_m96D69F5BA60A596D7C9FAAF0931940452E3D8846_inline (MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MeshInfo_get_ChangeState_mF366492B8EF4A9FC8F677E01A6BA4C6C75D3BF68_inline (MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MeshInfo_get_PriorityHint_mDBD3A096EC571EAAFB1E6CB93F4F309BD70F9231_inline (MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MeshInfo_set_PriorityHint_mA0F4BB9543846770A082A85C721E16D16F664615_inline (MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshInfo_Equals_m8D4446A3EBBC42CDF8E0637EC4CFD00AB89B12C6 (MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* __this, MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA ___0_other, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshInfo_Equals_m832745EC601145A6C99A608A49B6B750C0B8B5F1 (MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enum_Equals_m96B1058BA6312E23F31A5FBF594E96EB692EAF4E (RuntimeObject* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Int32_Equals_mC819D19A661B95BE253FB1769FD4D91961D20722 (int32_t* __this, int32_t ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeshInfo_GetHashCode_mFA72664A2E6A9B6E86CE36C2D211B8D2AC22250E (MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC MeshTransform_get_MeshId_m6B6006910DA8EF0DDB517424DDBCC2DD5B7E92B9_inline (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t MeshTransform_get_Timestamp_m63A9BEB7A7544ABA72AFBCF9A4CBA043C872FDFD_inline (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 MeshTransform_get_Position_m4E4F6240B8F9DBE4634C1CA346AAFAC1555197E9_inline (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 MeshTransform_get_Rotation_m1DE1FC2459EC908BCB7A2F82EDFCE437BC211F8F_inline (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 MeshTransform_get_Scale_m2C279AD6989B26E8F48402B82312322F0D8B520A_inline (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshTransform__ctor_mC589777DA0363B43418905B044E5B5BB4D140F9F (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC* ___0_meshId, uint64_t ___1_timestamp, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___3_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___4_scale, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshTransform_Equals_m2F9F68FEC43A7A1E4F5E45E89EA191CC768C5784 (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A ___0_other, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshTransform_Equals_mEE84420FF15F891F3A08C777C91B463712C25200 (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeshTransform_GetHashCode_m5EBA0C63B6E23F9024D0A56EFA98B99C5A5CD5F5 (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRMeshSubsystem_GetMeshInfosAsList_m72D6DDE116C761283E51B90D4EBC50D59C395917 (XRMeshSubsystem_tDDC31EC10D4F0517542F9EB296428A0F7EC2C3B2* __this, List_1_tEE09D0BD215A518344AF2985829C519B609B7B17* ___0_meshInfos, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRMeshSubsystem_GenerateMeshAsync_Injected_m47C5F75BC47F1A33FD82EFE2A58CF764E71DADB6 (XRMeshSubsystem_tDDC31EC10D4F0517542F9EB296428A0F7EC2C3B2* __this, MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC* ___0_meshId, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___1_mesh, MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455* ___2_meshCollider, int32_t ___3_attributes, Action_1_tC58438B06CEC83E8978FB47AC67764F80F55DEA8* ___4_onMeshGenerationComplete, int32_t ___5_options, const RuntimeMethod* method) ;
 inline void Action_1_Invoke_mE959103AFF340DAE4FFA216861988A12A1F3C805_inline (Action_1_tC58438B06CEC83E8978FB47AC67764F80F55DEA8* __this, MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C ___0_obj, const RuntimeMethod* method)
 {
 	((  void (*) (Action_1_tC58438B06CEC83E8978FB47AC67764F80F55DEA8*, MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C, const RuntimeMethod*))Action_1_Invoke_mE959103AFF340DAE4FFA216861988A12A1F3C805_gshared_inline)(__this, ___0_obj, method);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRMeshSubsystem_SetBoundingVolume_Injected_m9810F204B1036C59089B1FF7716C51922BFCDE7C (XRMeshSubsystem_tDDC31EC10D4F0517542F9EB296428A0F7EC2C3B2* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_origin, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_extents, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t XRMeshSubsystem_GetUpdatedMeshTransforms_m1D7E5E319F6C2D8C46C2AD21C5F4B6649C27FAD2 (XRMeshSubsystem_tDDC31EC10D4F0517542F9EB296428A0F7EC2C3B2* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MeshTransformList__ctor_m7B11F4035F0C79BEEC061590F37136CF7AC16B71_inline (MeshTransformList_t761D725D4B30CFD7DDF57B3725004994FB3B561F* __this, intptr_t ___0_self, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshTransformList_Dispose_m0F0B77B84E50F02EB1A48751831808F9C69E0636 (MeshTransformList_t761D725D4B30CFD7DDF57B3725004994FB3B561F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeshTransformList_get_Count_m971FEDFD7B9522D8D122B2414E58A3E5A3B81F8A (MeshTransformList_t761D725D4B30CFD7DDF57B3725004994FB3B561F* __this, const RuntimeMethod* method) ;
+inline void NativeArray_1__ctor_m64BC75DF089D38CCF7581DA1BBA2A6057451B4D1 (NativeArray_1_tA41870B57F75C8F0729AE0AC70060D0D7841D236* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_tA41870B57F75C8F0729AE0AC70060D0D7841D236*, int32_t, int32_t, int32_t, const RuntimeMethod*))NativeArray_1__ctor_m64BC75DF089D38CCF7581DA1BBA2A6057451B4D1_gshared)(__this, ___0_length, ___1_allocator, ___2_options, method);
+}
+inline void* NativeArrayUnsafeUtility_GetUnsafePtr_TisMeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A_m99AC0C898B3F825635FF50C6DB949BF88F6EA791 (NativeArray_1_tA41870B57F75C8F0729AE0AC70060D0D7841D236 ___0_nativeArray, const RuntimeMethod* method)
+{
+	return ((  void* (*) (NativeArray_1_tA41870B57F75C8F0729AE0AC70060D0D7841D236, const RuntimeMethod*))NativeArrayUnsafeUtility_GetUnsafePtr_TisMeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A_m99AC0C898B3F825635FF50C6DB949BF88F6EA791_gshared)(___0_nativeArray, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MeshTransformList_get_Data_m98A09C2E5F2744566323EB52A47A0F002139C40D (MeshTransformList_t761D725D4B30CFD7DDF57B3725004994FB3B561F* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* IntPtr_ToPointer_m1A0612EED3A1C8B8850BE2943CFC42523064B4F6_inline (intptr_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177 (void* ___0_destination, void* ___1_source, int64_t ___2_size, const RuntimeMethod* method) ;
 inline void IntegratedSubsystem_1__ctor_m994BCD28C1C5A54986AB4DDA38E2578381CCA171 (IntegratedSubsystem_1_t3AB3A9BAB10A4D1420E63EEA50D40FEE65F41C03* __this, const RuntimeMethod* method)
 {
 	((  void (*) (IntegratedSubsystem_1_t3AB3A9BAB10A4D1420E63EEA50D40FEE65F41C03*, const RuntimeMethod*))IntegratedSubsystem_1__ctor_mA130811A078A40712D15BFE67E73D0517AB0E989_gshared)(__this, method);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeshTransformList_GetLength_mC3AE75E252CD06356380765AF655073B396A5080 (intptr_t ___0_self, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MeshTransformList_GetData_m6A656C505BBE740688C6A158BF73E7C4C19B8F8C (intptr_t ___0_self, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshTransformList_Dispose_m7655ACDE6BC605B30EF2BC387A7B9D0F4D9EED19 (intptr_t ___0_self, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshTransformList_Dispose_m0F0B77B84E50F02EB1A48751831808F9C69E0636 (MeshTransformList_t761D725D4B30CFD7DDF57B3725004994FB3B561F* __this, const RuntimeMethod* method) ;
 inline void IntegratedSubsystemDescriptor_1__ctor_mF4354B29EF84B06E68C05D657260B044B123087C (IntegratedSubsystemDescriptor_1_tBFE1680F4FA360D4E9AB19FDE2CCBD959E436513* __this, const RuntimeMethod* method)
 {
 	((  void (*) (IntegratedSubsystemDescriptor_1_tBFE1680F4FA360D4E9AB19FDE2CCBD959E436513*, const RuntimeMethod*))IntegratedSubsystemDescriptor_1__ctor_m94FAA0F6D63A0144035D2645AAE00202B36BE7DC_gshared)(__this, method);
@@ -3382,6 +3480,52 @@ IL2CPP_EXTERN_C  bool InputDevice_get_isValid_mA908CF8195CECA44FF457430AFF9198C3
 	_thisAdjusted = reinterpret_cast<InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD*>(__this + _offset);
 	bool _returnValue;
 	_returnValue = InputDevice_get_isValid_mA908CF8195CECA44FF457430AFF9198C3FEC0948(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputDevice_get_name_mAEA08A3755E715697022C54227556428CEF4E1CE (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* __this, const RuntimeMethod* method) 
+{
+	String_t* V_0 = NULL;
+	String_t* G_B3_0 = NULL;
+	{
+		bool L_0;
+		L_0 = InputDevice_IsValidId_m13527A66E7D03B0C9AA64C2FFCC4A2F3889756BB(__this, NULL);
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		G_B3_0 = ((String_t*)(NULL));
+		goto IL_0017;
+	}
+
+IL_000c:
+	{
+		uint64_t L_1 = __this->___m_DeviceId;
+		String_t* L_2;
+		L_2 = InputDevices_GetDeviceName_m0AC6649B2A6AF0394487068FC82DFFA6D33A3D92(L_1, NULL);
+		G_B3_0 = L_2;
+	}
+
+IL_0017:
+	{
+		V_0 = G_B3_0;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		String_t* L_3 = V_0;
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  String_t* InputDevice_get_name_mAEA08A3755E715697022C54227556428CEF4E1CE_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = InputDevice_get_name_mAEA08A3755E715697022C54227556428CEF4E1CE(_thisAdjusted, method);
 	return _returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t InputDevice_get_characteristics_mEEDC9AB2254C155C47B48848FECF347A87925ADB (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* __this, const RuntimeMethod* method) 
@@ -5540,6 +5684,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevices_IsDeviceValid_m3A26291DCB77
 	bool icallRetVal = _il2cpp_icall_func(___0_deviceId);
 	return icallRetVal;
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputDevices_GetDeviceName_m0AC6649B2A6AF0394487068FC82DFFA6D33A3D92 (uint64_t ___0_deviceId, const RuntimeMethod* method) 
+{
+	typedef String_t* (*InputDevices_GetDeviceName_m0AC6649B2A6AF0394487068FC82DFFA6D33A3D92_ftn) (uint64_t);
+	static InputDevices_GetDeviceName_m0AC6649B2A6AF0394487068FC82DFFA6D33A3D92_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (InputDevices_GetDeviceName_m0AC6649B2A6AF0394487068FC82DFFA6D33A3D92_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.InputDevices::GetDeviceName(System.UInt64)");
+	String_t* icallRetVal = _il2cpp_icall_func(___0_deviceId);
+	return icallRetVal;
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t InputDevices_GetDeviceCharacteristics_m484271629C390D593B073791099D05EC8F45CDF9 (uint64_t ___0_deviceId, const RuntimeMethod* method) 
 {
 	typedef uint32_t (*InputDevices_GetDeviceCharacteristics_m484271629C390D593B073791099D05EC8F45CDF9_ftn) (uint64_t);
@@ -6558,6 +6711,22 @@ IL2CPP_EXTERN_C  int32_t MeshGenerationResult_get_Attributes_m62E3E9EC74240C37D8
 	_returnValue = MeshGenerationResult_get_Attributes_m62E3E9EC74240C37D818481B1243B3EB40424C6B_inline(_thisAdjusted, method);
 	return _returnValue;
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t MeshGenerationResult_get_Timestamp_m3D0F0FD234467DF615695ECBB381AFE33030F6CE (MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C* __this, const RuntimeMethod* method) 
+{
+	{
+		uint64_t L_0 = __this->___U3CTimestampU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  uint64_t MeshGenerationResult_get_Timestamp_m3D0F0FD234467DF615695ECBB381AFE33030F6CE_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C*>(__this + _offset);
+	uint64_t _returnValue;
+	_returnValue = MeshGenerationResult_get_Timestamp_m3D0F0FD234467DF615695ECBB381AFE33030F6CE_inline(_thisAdjusted, method);
+	return _returnValue;
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 MeshGenerationResult_get_Position_m72AE25CA3412AE3C653251095067B496CEC1617F (MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6889,6 +7058,635 @@ IL2CPP_EXTERN_C  int32_t MeshGenerationResult_GetHashCode_mA542C935FE2ABB8EC0A3C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC MeshInfo_get_MeshId_m96D69F5BA60A596D7C9FAAF0931940452E3D8846 (MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* __this, const RuntimeMethod* method) 
+{
+	{
+		MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC L_0 = __this->___U3CMeshIdU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC MeshInfo_get_MeshId_m96D69F5BA60A596D7C9FAAF0931940452E3D8846_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA*>(__this + _offset);
+	MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC _returnValue;
+	_returnValue = MeshInfo_get_MeshId_m96D69F5BA60A596D7C9FAAF0931940452E3D8846_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeshInfo_get_ChangeState_mF366492B8EF4A9FC8F677E01A6BA4C6C75D3BF68 (MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CChangeStateU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t MeshInfo_get_ChangeState_mF366492B8EF4A9FC8F677E01A6BA4C6C75D3BF68_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = MeshInfo_get_ChangeState_mF366492B8EF4A9FC8F677E01A6BA4C6C75D3BF68_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeshInfo_get_PriorityHint_mDBD3A096EC571EAAFB1E6CB93F4F309BD70F9231 (MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CPriorityHintU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t MeshInfo_get_PriorityHint_mDBD3A096EC571EAAFB1E6CB93F4F309BD70F9231_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = MeshInfo_get_PriorityHint_mDBD3A096EC571EAAFB1E6CB93F4F309BD70F9231_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshInfo_set_PriorityHint_mA0F4BB9543846770A082A85C721E16D16F664615 (MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___0_value;
+		__this->___U3CPriorityHintU3Ek__BackingField = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MeshInfo_set_PriorityHint_mA0F4BB9543846770A082A85C721E16D16F664615_AdjustorThunk (RuntimeObject* __this, int32_t ___0_value, const RuntimeMethod* method)
+{
+	MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA*>(__this + _offset);
+	MeshInfo_set_PriorityHint_mA0F4BB9543846770A082A85C721E16D16F664615_inline(_thisAdjusted, ___0_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshInfo_Equals_m832745EC601145A6C99A608A49B6B750C0B8B5F1 (MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		RuntimeObject* L_0 = ___0_obj;
+		V_0 = (bool)((((int32_t)((!(((RuntimeObject*)(RuntimeObject*)((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		V_1 = (bool)0;
+		goto IL_0024;
+	}
+
+IL_0015:
+	{
+		RuntimeObject* L_2 = ___0_obj;
+		bool L_3;
+		L_3 = MeshInfo_Equals_m8D4446A3EBBC42CDF8E0637EC4CFD00AB89B12C6(__this, ((*(MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA*)((MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA*)(MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA*)UnBox(L_2, MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA_il2cpp_TypeInfo_var)))), NULL);
+		V_1 = L_3;
+		goto IL_0024;
+	}
+
+IL_0024:
+	{
+		bool L_4 = V_1;
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshInfo_Equals_m832745EC601145A6C99A608A49B6B750C0B8B5F1_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method)
+{
+	MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshInfo_Equals_m832745EC601145A6C99A608A49B6B750C0B8B5F1(_thisAdjusted, ___0_obj, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshInfo_Equals_m8D4446A3EBBC42CDF8E0637EC4CFD00AB89B12C6 (MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* __this, MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA ___0_other, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshChangeState_t4CCBA82867A78CD1241B037198571A5365D7910C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	bool V_3 = false;
+	int32_t G_B4_0 = 0;
+	{
+		MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC L_0;
+		L_0 = MeshInfo_get_MeshId_m96D69F5BA60A596D7C9FAAF0931940452E3D8846_inline(__this, NULL);
+		V_0 = L_0;
+		MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC L_1;
+		L_1 = MeshInfo_get_MeshId_m96D69F5BA60A596D7C9FAAF0931940452E3D8846_inline((&___0_other), NULL);
+		il2cpp_codegen_runtime_class_init_inline(MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = MeshId_Equals_m3D0AC754FDC327819342797C38CF20C5F3D25818((&V_0), L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		int32_t L_3;
+		L_3 = MeshInfo_get_ChangeState_mF366492B8EF4A9FC8F677E01A6BA4C6C75D3BF68_inline(__this, NULL);
+		V_1 = L_3;
+		int32_t L_4;
+		L_4 = MeshInfo_get_ChangeState_mF366492B8EF4A9FC8F677E01A6BA4C6C75D3BF68_inline((&___0_other), NULL);
+		int32_t L_5 = L_4;
+		RuntimeObject* L_6 = Box(MeshChangeState_t4CCBA82867A78CD1241B037198571A5365D7910C_il2cpp_TypeInfo_var, &L_5);
+		Il2CppFakeBox<int32_t> L_7(MeshChangeState_t4CCBA82867A78CD1241B037198571A5365D7910C_il2cpp_TypeInfo_var, (&V_1));
+		bool L_8;
+		L_8 = Enum_Equals_m96B1058BA6312E23F31A5FBF594E96EB692EAF4E((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_7), L_6, NULL);
+		if (!L_8)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		int32_t L_9;
+		L_9 = MeshInfo_get_PriorityHint_mDBD3A096EC571EAAFB1E6CB93F4F309BD70F9231_inline(__this, NULL);
+		V_2 = L_9;
+		int32_t L_10;
+		L_10 = MeshInfo_get_PriorityHint_mDBD3A096EC571EAAFB1E6CB93F4F309BD70F9231_inline((&___0_other), NULL);
+		bool L_11;
+		L_11 = Int32_Equals_mC819D19A661B95BE253FB1769FD4D91961D20722((&V_2), L_10, NULL);
+		G_B4_0 = ((int32_t)(L_11));
+		goto IL_0052;
+	}
+
+IL_0051:
+	{
+		G_B4_0 = 0;
+	}
+
+IL_0052:
+	{
+		V_3 = (bool)G_B4_0;
+		goto IL_0055;
+	}
+
+IL_0055:
+	{
+		bool L_12 = V_3;
+		return L_12;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshInfo_Equals_m8D4446A3EBBC42CDF8E0637EC4CFD00AB89B12C6_AdjustorThunk (RuntimeObject* __this, MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA ___0_other, const RuntimeMethod* method)
+{
+	MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshInfo_Equals_m8D4446A3EBBC42CDF8E0637EC4CFD00AB89B12C6(_thisAdjusted, ___0_other, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeshInfo_GetHashCode_mFA72664A2E6A9B6E86CE36C2D211B8D2AC22250E (MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	{
+		MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC L_0;
+		L_0 = MeshInfo_get_MeshId_m96D69F5BA60A596D7C9FAAF0931940452E3D8846_inline(__this, NULL);
+		V_0 = L_0;
+		il2cpp_codegen_runtime_class_init_inline(MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC_il2cpp_TypeInfo_var);
+		int32_t L_1;
+		L_1 = MeshId_GetHashCode_mC6B6428EB5856505023C0D48879B92C2E3F062B0((&V_0), NULL);
+		int32_t L_2;
+		L_2 = MeshInfo_get_ChangeState_mF366492B8EF4A9FC8F677E01A6BA4C6C75D3BF68_inline(__this, NULL);
+		V_1 = L_2;
+		int32_t L_3;
+		L_3 = Int32_GetHashCode_m253D60FF7527A483E91004B7A2366F13E225E295((&V_1), NULL);
+		int32_t L_4;
+		L_4 = MeshInfo_get_PriorityHint_mDBD3A096EC571EAAFB1E6CB93F4F309BD70F9231_inline(__this, NULL);
+		V_1 = L_4;
+		int32_t L_5;
+		L_5 = Int32_GetHashCode_m253D60FF7527A483E91004B7A2366F13E225E295((&V_1), NULL);
+		int32_t L_6;
+		L_6 = HashCodeHelper_Combine_mEDE733EC1ABDEA82040BBC18551FB975F3FAC322(L_1, L_3, L_5, NULL);
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C  int32_t MeshInfo_GetHashCode_mFA72664A2E6A9B6E86CE36C2D211B8D2AC22250E_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = MeshInfo_GetHashCode_mFA72664A2E6A9B6E86CE36C2D211B8D2AC22250E(_thisAdjusted, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC MeshTransform_get_MeshId_m6B6006910DA8EF0DDB517424DDBCC2DD5B7E92B9 (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, const RuntimeMethod* method) 
+{
+	{
+		MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC L_0 = __this->___U3CMeshIdU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC MeshTransform_get_MeshId_m6B6006910DA8EF0DDB517424DDBCC2DD5B7E92B9_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A*>(__this + _offset);
+	MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC _returnValue;
+	_returnValue = MeshTransform_get_MeshId_m6B6006910DA8EF0DDB517424DDBCC2DD5B7E92B9_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t MeshTransform_get_Timestamp_m63A9BEB7A7544ABA72AFBCF9A4CBA043C872FDFD (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, const RuntimeMethod* method) 
+{
+	{
+		uint64_t L_0 = __this->___U3CTimestampU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  uint64_t MeshTransform_get_Timestamp_m63A9BEB7A7544ABA72AFBCF9A4CBA043C872FDFD_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A*>(__this + _offset);
+	uint64_t _returnValue;
+	_returnValue = MeshTransform_get_Timestamp_m63A9BEB7A7544ABA72AFBCF9A4CBA043C872FDFD_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 MeshTransform_get_Position_m4E4F6240B8F9DBE4634C1CA346AAFAC1555197E9 (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, const RuntimeMethod* method) 
+{
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___U3CPositionU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 MeshTransform_get_Position_m4E4F6240B8F9DBE4634C1CA346AAFAC1555197E9_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A*>(__this + _offset);
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 _returnValue;
+	_returnValue = MeshTransform_get_Position_m4E4F6240B8F9DBE4634C1CA346AAFAC1555197E9_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 MeshTransform_get_Rotation_m1DE1FC2459EC908BCB7A2F82EDFCE437BC211F8F (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, const RuntimeMethod* method) 
+{
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = __this->___U3CRotationU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 MeshTransform_get_Rotation_m1DE1FC2459EC908BCB7A2F82EDFCE437BC211F8F_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A*>(__this + _offset);
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 _returnValue;
+	_returnValue = MeshTransform_get_Rotation_m1DE1FC2459EC908BCB7A2F82EDFCE437BC211F8F_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 MeshTransform_get_Scale_m2C279AD6989B26E8F48402B82312322F0D8B520A (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, const RuntimeMethod* method) 
+{
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___U3CScaleU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 MeshTransform_get_Scale_m2C279AD6989B26E8F48402B82312322F0D8B520A_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A*>(__this + _offset);
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 _returnValue;
+	_returnValue = MeshTransform_get_Scale_m2C279AD6989B26E8F48402B82312322F0D8B520A_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshTransform__ctor_mC589777DA0363B43418905B044E5B5BB4D140F9F (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC* ___0_meshId, uint64_t ___1_timestamp, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___3_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___4_scale, const RuntimeMethod* method) 
+{
+	{
+		MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC* L_0 = ___0_meshId;
+		MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC L_1 = (*(MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC*)L_0);
+		__this->___U3CMeshIdU3Ek__BackingField = L_1;
+		uint64_t L_2 = ___1_timestamp;
+		__this->___U3CTimestampU3Ek__BackingField = L_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3 = ___2_position;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3);
+		__this->___U3CPositionU3Ek__BackingField = L_4;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_5 = ___3_rotation;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = (*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_5);
+		__this->___U3CRotationU3Ek__BackingField = L_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_7 = ___4_scale;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_7);
+		__this->___U3CScaleU3Ek__BackingField = L_8;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MeshTransform__ctor_mC589777DA0363B43418905B044E5B5BB4D140F9F_AdjustorThunk (RuntimeObject* __this, MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC* ___0_meshId, uint64_t ___1_timestamp, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___3_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___4_scale, const RuntimeMethod* method)
+{
+	MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A*>(__this + _offset);
+	MeshTransform__ctor_mC589777DA0363B43418905B044E5B5BB4D140F9F(_thisAdjusted, ___0_meshId, ___1_timestamp, ___2_position, ___3_rotation, ___4_scale, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshTransform_Equals_mEE84420FF15F891F3A08C777C91B463712C25200 (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t G_B3_0 = 0;
+	{
+		RuntimeObject* L_0 = ___0_obj;
+		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		RuntimeObject* L_1 = ___0_obj;
+		V_0 = ((*(MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A*)((MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A*)(MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A*)UnBox(L_1, MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A_il2cpp_TypeInfo_var))));
+		MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A L_2 = V_0;
+		bool L_3;
+		L_3 = MeshTransform_Equals_m2F9F68FEC43A7A1E4F5E45E89EA191CC768C5784(__this, L_2, NULL);
+		G_B3_0 = ((int32_t)(L_3));
+		goto IL_0019;
+	}
+
+IL_0018:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0019:
+	{
+		return (bool)G_B3_0;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshTransform_Equals_mEE84420FF15F891F3A08C777C91B463712C25200_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method)
+{
+	MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshTransform_Equals_mEE84420FF15F891F3A08C777C91B463712C25200(_thisAdjusted, ___0_obj, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshTransform_Equals_m2F9F68FEC43A7A1E4F5E45E89EA191CC768C5784 (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A ___0_other, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	int32_t G_B6_0 = 0;
+	{
+		MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC L_0;
+		L_0 = MeshTransform_get_MeshId_m6B6006910DA8EF0DDB517424DDBCC2DD5B7E92B9_inline(__this, NULL);
+		V_0 = L_0;
+		MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC L_1;
+		L_1 = MeshTransform_get_MeshId_m6B6006910DA8EF0DDB517424DDBCC2DD5B7E92B9_inline((&___0_other), NULL);
+		il2cpp_codegen_runtime_class_init_inline(MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = MeshId_Equals_m3D0AC754FDC327819342797C38CF20C5F3D25818((&V_0), L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		uint64_t L_3;
+		L_3 = MeshTransform_get_Timestamp_m63A9BEB7A7544ABA72AFBCF9A4CBA043C872FDFD_inline(__this, NULL);
+		uint64_t L_4;
+		L_4 = MeshTransform_get_Timestamp_m63A9BEB7A7544ABA72AFBCF9A4CBA043C872FDFD_inline((&___0_other), NULL);
+		if ((!(((uint64_t)L_3) == ((uint64_t)L_4))))
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = MeshTransform_get_Position_m4E4F6240B8F9DBE4634C1CA346AAFAC1555197E9_inline(__this, NULL);
+		V_1 = L_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = MeshTransform_get_Position_m4E4F6240B8F9DBE4634C1CA346AAFAC1555197E9_inline((&___0_other), NULL);
+		bool L_7;
+		L_7 = Vector3_Equals_mEDEAF86793D229455BBF9BA5B30DDF438D6CABC1_inline((&V_1), L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8;
+		L_8 = MeshTransform_get_Rotation_m1DE1FC2459EC908BCB7A2F82EDFCE437BC211F8F_inline(__this, NULL);
+		V_2 = L_8;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9;
+		L_9 = MeshTransform_get_Rotation_m1DE1FC2459EC908BCB7A2F82EDFCE437BC211F8F_inline((&___0_other), NULL);
+		bool L_10;
+		L_10 = Quaternion_Equals_m25B95D8412B79CC7F8B34062BFAE662BD99578BE_inline((&V_2), L_9, NULL);
+		if (!L_10)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = MeshTransform_get_Scale_m2C279AD6989B26E8F48402B82312322F0D8B520A_inline(__this, NULL);
+		V_1 = L_11;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = MeshTransform_get_Scale_m2C279AD6989B26E8F48402B82312322F0D8B520A_inline((&___0_other), NULL);
+		bool L_13;
+		L_13 = Vector3_Equals_mEDEAF86793D229455BBF9BA5B30DDF438D6CABC1_inline((&V_1), L_12, NULL);
+		G_B6_0 = ((int32_t)(L_13));
+		goto IL_006c;
+	}
+
+IL_006b:
+	{
+		G_B6_0 = 0;
+	}
+
+IL_006c:
+	{
+		return (bool)G_B6_0;
+	}
+}
+IL2CPP_EXTERN_C  bool MeshTransform_Equals_m2F9F68FEC43A7A1E4F5E45E89EA191CC768C5784_AdjustorThunk (RuntimeObject* __this, MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A ___0_other, const RuntimeMethod* method)
+{
+	MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MeshTransform_Equals_m2F9F68FEC43A7A1E4F5E45E89EA191CC768C5784(_thisAdjusted, ___0_other, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeshTransform_GetHashCode_m5EBA0C63B6E23F9024D0A56EFA98B99C5A5CD5F5 (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	uint64_t V_1 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	{
+		MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC L_0;
+		L_0 = MeshTransform_get_MeshId_m6B6006910DA8EF0DDB517424DDBCC2DD5B7E92B9_inline(__this, NULL);
+		V_0 = L_0;
+		il2cpp_codegen_runtime_class_init_inline(MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC_il2cpp_TypeInfo_var);
+		int32_t L_1;
+		L_1 = MeshId_GetHashCode_mC6B6428EB5856505023C0D48879B92C2E3F062B0((&V_0), NULL);
+		uint64_t L_2;
+		L_2 = MeshTransform_get_Timestamp_m63A9BEB7A7544ABA72AFBCF9A4CBA043C872FDFD_inline(__this, NULL);
+		V_1 = L_2;
+		int32_t L_3;
+		L_3 = UInt64_GetHashCode_m65D9FD0102B6B01BF38D986F060F0BDBC29B4F92((&V_1), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = MeshTransform_get_Position_m4E4F6240B8F9DBE4634C1CA346AAFAC1555197E9_inline(__this, NULL);
+		V_2 = L_4;
+		int32_t L_5;
+		L_5 = Vector3_GetHashCode_mB08429DC931A85BD29CE11B9ABC77DE7E0E46327_inline((&V_2), NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6;
+		L_6 = MeshTransform_get_Rotation_m1DE1FC2459EC908BCB7A2F82EDFCE437BC211F8F_inline(__this, NULL);
+		V_3 = L_6;
+		int32_t L_7;
+		L_7 = Quaternion_GetHashCode_m5F55C34C98E437376595E722BE4EB8A70434F049_inline((&V_3), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = MeshTransform_get_Scale_m2C279AD6989B26E8F48402B82312322F0D8B520A_inline(__this, NULL);
+		V_2 = L_8;
+		int32_t L_9;
+		L_9 = Vector3_GetHashCode_mB08429DC931A85BD29CE11B9ABC77DE7E0E46327_inline((&V_2), NULL);
+		int32_t L_10;
+		L_10 = HashCodeHelper_Combine_mBE52BFDECDDA219A4A334421E8706078A4BE6680(L_1, L_3, L_5, L_7, L_9, NULL);
+		return L_10;
+	}
+}
+IL2CPP_EXTERN_C  int32_t MeshTransform_GetHashCode_m5EBA0C63B6E23F9024D0A56EFA98B99C5A5CD5F5_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = MeshTransform_GetHashCode_m5EBA0C63B6E23F9024D0A56EFA98B99C5A5CD5F5(_thisAdjusted, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRMeshSubsystem_TryGetMeshInfos_m05F584066A873F286C16B99A929C4B3B9AB58FD2 (XRMeshSubsystem_tDDC31EC10D4F0517542F9EB296428A0F7EC2C3B2* __this, List_1_tEE09D0BD215A518344AF2985829C519B609B7B17* ___0_meshInfosOut, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		List_1_tEE09D0BD215A518344AF2985829C519B609B7B17* L_0 = ___0_meshInfosOut;
+		V_0 = (bool)((((RuntimeObject*)(List_1_tEE09D0BD215A518344AF2985829C519B609B7B17*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_2 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
+		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8D42D61EA6D5A201CA2B913F9FC16CBC0B8FCF88)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&XRMeshSubsystem_TryGetMeshInfos_m05F584066A873F286C16B99A929C4B3B9AB58FD2_RuntimeMethod_var)));
+	}
+
+IL_0014:
+	{
+		List_1_tEE09D0BD215A518344AF2985829C519B609B7B17* L_3 = ___0_meshInfosOut;
+		bool L_4;
+		L_4 = XRMeshSubsystem_GetMeshInfosAsList_m72D6DDE116C761283E51B90D4EBC50D59C395917(__this, L_3, NULL);
+		V_1 = L_4;
+		goto IL_001e;
+	}
+
+IL_001e:
+	{
+		bool L_5 = V_1;
+		return L_5;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRMeshSubsystem_GetMeshInfosAsList_m72D6DDE116C761283E51B90D4EBC50D59C395917 (XRMeshSubsystem_tDDC31EC10D4F0517542F9EB296428A0F7EC2C3B2* __this, List_1_tEE09D0BD215A518344AF2985829C519B609B7B17* ___0_meshInfos, const RuntimeMethod* method) 
+{
+	typedef bool (*XRMeshSubsystem_GetMeshInfosAsList_m72D6DDE116C761283E51B90D4EBC50D59C395917_ftn) (XRMeshSubsystem_tDDC31EC10D4F0517542F9EB296428A0F7EC2C3B2*, List_1_tEE09D0BD215A518344AF2985829C519B609B7B17*);
+	static XRMeshSubsystem_GetMeshInfosAsList_m72D6DDE116C761283E51B90D4EBC50D59C395917_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (XRMeshSubsystem_GetMeshInfosAsList_m72D6DDE116C761283E51B90D4EBC50D59C395917_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRMeshSubsystem::GetMeshInfosAsList(System.Collections.Generic.List`1<UnityEngine.XR.MeshInfo>)");
+	bool icallRetVal = _il2cpp_icall_func(__this, ___0_meshInfos);
+	return icallRetVal;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRMeshSubsystem_GenerateMeshAsync_mB0C6892EB55BC93DB6340E11D9C7ABDAB05E2803 (XRMeshSubsystem_tDDC31EC10D4F0517542F9EB296428A0F7EC2C3B2* __this, MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC ___0_meshId, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___1_mesh, MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455* ___2_meshCollider, int32_t ___3_attributes, Action_1_tC58438B06CEC83E8978FB47AC67764F80F55DEA8* ___4_onMeshGenerationComplete, int32_t ___5_options, const RuntimeMethod* method) 
+{
+	{
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = ___1_mesh;
+		MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455* L_1 = ___2_meshCollider;
+		int32_t L_2 = ___3_attributes;
+		Action_1_tC58438B06CEC83E8978FB47AC67764F80F55DEA8* L_3 = ___4_onMeshGenerationComplete;
+		int32_t L_4 = ___5_options;
+		XRMeshSubsystem_GenerateMeshAsync_Injected_m47C5F75BC47F1A33FD82EFE2A58CF764E71DADB6(__this, (&___0_meshId), L_0, L_1, L_2, L_3, L_4, NULL);
+		return;
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRMeshSubsystem_InvokeMeshReadyDelegate_m495A42DE7C44B760CB7D41244A9314F860EA6C53 (XRMeshSubsystem_tDDC31EC10D4F0517542F9EB296428A0F7EC2C3B2* __this, MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C ___0_result, Action_1_tC58438B06CEC83E8978FB47AC67764F80F55DEA8* ___1_onMeshGenerationComplete, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -6913,6 +7711,100 @@ IL_0011:
 		return;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRMeshSubsystem_set_meshDensity_mB3B23768DE704088634FCBEE3F21B9E0C869BE31 (XRMeshSubsystem_tDDC31EC10D4F0517542F9EB296428A0F7EC2C3B2* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	typedef void (*XRMeshSubsystem_set_meshDensity_mB3B23768DE704088634FCBEE3F21B9E0C869BE31_ftn) (XRMeshSubsystem_tDDC31EC10D4F0517542F9EB296428A0F7EC2C3B2*, float);
+	static XRMeshSubsystem_set_meshDensity_mB3B23768DE704088634FCBEE3F21B9E0C869BE31_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (XRMeshSubsystem_set_meshDensity_mB3B23768DE704088634FCBEE3F21B9E0C869BE31_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRMeshSubsystem::set_meshDensity(System.Single)");
+	_il2cpp_icall_func(__this, ___0_value);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRMeshSubsystem_SetBoundingVolume_mC2B3A3A003779328460EF482220BC94C71D40294 (XRMeshSubsystem_tDDC31EC10D4F0517542F9EB296428A0F7EC2C3B2* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_origin, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_extents, const RuntimeMethod* method) 
+{
+	{
+		bool L_0;
+		L_0 = XRMeshSubsystem_SetBoundingVolume_Injected_m9810F204B1036C59089B1FF7716C51922BFCDE7C(__this, (&___0_origin), (&___1_extents), NULL);
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tA41870B57F75C8F0729AE0AC70060D0D7841D236 XRMeshSubsystem_GetUpdatedMeshTransforms_mB0D1B03FB20FF0F5086AF899E97FD2ED97124652 (XRMeshSubsystem_tDDC31EC10D4F0517542F9EB296428A0F7EC2C3B2* __this, int32_t ___0_allocator, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArrayUnsafeUtility_GetUnsafePtr_TisMeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A_m99AC0C898B3F825635FF50C6DB949BF88F6EA791_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1__ctor_m64BC75DF089D38CCF7581DA1BBA2A6057451B4D1_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MeshTransformList_t761D725D4B30CFD7DDF57B3725004994FB3B561F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	NativeArray_1_tA41870B57F75C8F0729AE0AC70060D0D7841D236 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	intptr_t V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	NativeArray_1_tA41870B57F75C8F0729AE0AC70060D0D7841D236 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	{
+		intptr_t L_0;
+		L_0 = XRMeshSubsystem_GetUpdatedMeshTransforms_m1D7E5E319F6C2D8C46C2AD21C5F4B6649C27FAD2(__this, NULL);
+		MeshTransformList__ctor_m7B11F4035F0C79BEEC061590F37136CF7AC16B71_inline((&V_0), L_0, NULL);
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_004c:
+			{
+				MeshTransformList_Dispose_m0F0B77B84E50F02EB1A48751831808F9C69E0636((&V_0), NULL);
+				return;
+			}
+		});
+		try
+		{
+			int32_t L_1;
+			L_1 = MeshTransformList_get_Count_m971FEDFD7B9522D8D122B2414E58A3E5A3B81F8A((&V_0), NULL);
+			int32_t L_2 = ___0_allocator;
+			NativeArray_1_tA41870B57F75C8F0729AE0AC70060D0D7841D236 L_3;
+			memset((&L_3), 0, sizeof(L_3));
+			NativeArray_1__ctor_m64BC75DF089D38CCF7581DA1BBA2A6057451B4D1((&L_3), L_1, L_2, 0, NativeArray_1__ctor_m64BC75DF089D38CCF7581DA1BBA2A6057451B4D1_RuntimeMethod_var);
+			V_1 = L_3;
+			NativeArray_1_tA41870B57F75C8F0729AE0AC70060D0D7841D236 L_4 = V_1;
+			void* L_5;
+			L_5 = NativeArrayUnsafeUtility_GetUnsafePtr_TisMeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A_m99AC0C898B3F825635FF50C6DB949BF88F6EA791(L_4, NativeArrayUnsafeUtility_GetUnsafePtr_TisMeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A_m99AC0C898B3F825635FF50C6DB949BF88F6EA791_RuntimeMethod_var);
+			intptr_t L_6;
+			L_6 = MeshTransformList_get_Data_m98A09C2E5F2744566323EB52A47A0F002139C40D((&V_0), NULL);
+			V_2 = L_6;
+			void* L_7;
+			L_7 = IntPtr_ToPointer_m1A0612EED3A1C8B8850BE2943CFC42523064B4F6_inline((&V_2), NULL);
+			int32_t L_8;
+			L_8 = MeshTransformList_get_Count_m971FEDFD7B9522D8D122B2414E58A3E5A3B81F8A((&V_0), NULL);
+			uint32_t L_9 = sizeof(MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A);
+			UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_5, L_7, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_8, (int32_t)L_9))), NULL);
+			NativeArray_1_tA41870B57F75C8F0729AE0AC70060D0D7841D236 L_10 = V_1;
+			V_3 = L_10;
+			goto IL_005b;
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_005b:
+	{
+		NativeArray_1_tA41870B57F75C8F0729AE0AC70060D0D7841D236 L_11 = V_3;
+		return L_11;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t XRMeshSubsystem_GetUpdatedMeshTransforms_m1D7E5E319F6C2D8C46C2AD21C5F4B6649C27FAD2 (XRMeshSubsystem_tDDC31EC10D4F0517542F9EB296428A0F7EC2C3B2* __this, const RuntimeMethod* method) 
+{
+	typedef intptr_t (*XRMeshSubsystem_GetUpdatedMeshTransforms_m1D7E5E319F6C2D8C46C2AD21C5F4B6649C27FAD2_ftn) (XRMeshSubsystem_tDDC31EC10D4F0517542F9EB296428A0F7EC2C3B2*);
+	static XRMeshSubsystem_GetUpdatedMeshTransforms_m1D7E5E319F6C2D8C46C2AD21C5F4B6649C27FAD2_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (XRMeshSubsystem_GetUpdatedMeshTransforms_m1D7E5E319F6C2D8C46C2AD21C5F4B6649C27FAD2_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRMeshSubsystem::GetUpdatedMeshTransforms()");
+	intptr_t icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRMeshSubsystem__ctor_mA9C27A31A690B9023F70B628A9D9F5E3F5ED2AEA (XRMeshSubsystem_tDDC31EC10D4F0517542F9EB296428A0F7EC2C3B2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6926,6 +7818,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRMeshSubsystem__ctor_mA9C27A31A690B9023
 		return;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRMeshSubsystem_GenerateMeshAsync_Injected_m47C5F75BC47F1A33FD82EFE2A58CF764E71DADB6 (XRMeshSubsystem_tDDC31EC10D4F0517542F9EB296428A0F7EC2C3B2* __this, MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC* ___0_meshId, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___1_mesh, MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455* ___2_meshCollider, int32_t ___3_attributes, Action_1_tC58438B06CEC83E8978FB47AC67764F80F55DEA8* ___4_onMeshGenerationComplete, int32_t ___5_options, const RuntimeMethod* method) 
+{
+	typedef void (*XRMeshSubsystem_GenerateMeshAsync_Injected_m47C5F75BC47F1A33FD82EFE2A58CF764E71DADB6_ftn) (XRMeshSubsystem_tDDC31EC10D4F0517542F9EB296428A0F7EC2C3B2*, MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC*, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*, MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455*, int32_t, Action_1_tC58438B06CEC83E8978FB47AC67764F80F55DEA8*, int32_t);
+	static XRMeshSubsystem_GenerateMeshAsync_Injected_m47C5F75BC47F1A33FD82EFE2A58CF764E71DADB6_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (XRMeshSubsystem_GenerateMeshAsync_Injected_m47C5F75BC47F1A33FD82EFE2A58CF764E71DADB6_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRMeshSubsystem::GenerateMeshAsync_Injected(UnityEngine.XR.MeshId&,UnityEngine.Mesh,UnityEngine.MeshCollider,UnityEngine.XR.MeshVertexAttributes,System.Action`1<UnityEngine.XR.MeshGenerationResult>,UnityEngine.XR.MeshGenerationOptions)");
+	_il2cpp_icall_func(__this, ___0_meshId, ___1_mesh, ___2_meshCollider, ___3_attributes, ___4_onMeshGenerationComplete, ___5_options);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRMeshSubsystem_SetBoundingVolume_Injected_m9810F204B1036C59089B1FF7716C51922BFCDE7C (XRMeshSubsystem_tDDC31EC10D4F0517542F9EB296428A0F7EC2C3B2* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_origin, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_extents, const RuntimeMethod* method) 
+{
+	typedef bool (*XRMeshSubsystem_SetBoundingVolume_Injected_m9810F204B1036C59089B1FF7716C51922BFCDE7C_ftn) (XRMeshSubsystem_tDDC31EC10D4F0517542F9EB296428A0F7EC2C3B2*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*);
+	static XRMeshSubsystem_SetBoundingVolume_Injected_m9810F204B1036C59089B1FF7716C51922BFCDE7C_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (XRMeshSubsystem_SetBoundingVolume_Injected_m9810F204B1036C59089B1FF7716C51922BFCDE7C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRMeshSubsystem::SetBoundingVolume_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&)");
+	bool icallRetVal = _il2cpp_icall_func(__this, ___0_origin, ___1_extents);
+	return icallRetVal;
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -6934,6 +7843,57 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRMeshSubsystem__ctor_mA9C27A31A690B9023
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshTransformList__ctor_m7B11F4035F0C79BEEC061590F37136CF7AC16B71 (MeshTransformList_t761D725D4B30CFD7DDF57B3725004994FB3B561F* __this, intptr_t ___0_self, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = ___0_self;
+		__this->___m_Self = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MeshTransformList__ctor_m7B11F4035F0C79BEEC061590F37136CF7AC16B71_AdjustorThunk (RuntimeObject* __this, intptr_t ___0_self, const RuntimeMethod* method)
+{
+	MeshTransformList_t761D725D4B30CFD7DDF57B3725004994FB3B561F* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshTransformList_t761D725D4B30CFD7DDF57B3725004994FB3B561F*>(__this + _offset);
+	MeshTransformList__ctor_m7B11F4035F0C79BEEC061590F37136CF7AC16B71_inline(_thisAdjusted, ___0_self, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeshTransformList_get_Count_m971FEDFD7B9522D8D122B2414E58A3E5A3B81F8A (MeshTransformList_t761D725D4B30CFD7DDF57B3725004994FB3B561F* __this, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = __this->___m_Self;
+		int32_t L_1;
+		L_1 = MeshTransformList_GetLength_mC3AE75E252CD06356380765AF655073B396A5080(L_0, NULL);
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  int32_t MeshTransformList_get_Count_m971FEDFD7B9522D8D122B2414E58A3E5A3B81F8A_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MeshTransformList_t761D725D4B30CFD7DDF57B3725004994FB3B561F* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshTransformList_t761D725D4B30CFD7DDF57B3725004994FB3B561F*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = MeshTransformList_get_Count_m971FEDFD7B9522D8D122B2414E58A3E5A3B81F8A(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MeshTransformList_get_Data_m98A09C2E5F2744566323EB52A47A0F002139C40D (MeshTransformList_t761D725D4B30CFD7DDF57B3725004994FB3B561F* __this, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = __this->___m_Self;
+		intptr_t L_1;
+		L_1 = MeshTransformList_GetData_m6A656C505BBE740688C6A158BF73E7C4C19B8F8C(L_0, NULL);
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  intptr_t MeshTransformList_get_Data_m98A09C2E5F2744566323EB52A47A0F002139C40D_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MeshTransformList_t761D725D4B30CFD7DDF57B3725004994FB3B561F* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MeshTransformList_t761D725D4B30CFD7DDF57B3725004994FB3B561F*>(__this + _offset);
+	intptr_t _returnValue;
+	_returnValue = MeshTransformList_get_Data_m98A09C2E5F2744566323EB52A47A0F002139C40D(_thisAdjusted, method);
+	return _returnValue;
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshTransformList_Dispose_m0F0B77B84E50F02EB1A48751831808F9C69E0636 (MeshTransformList_t761D725D4B30CFD7DDF57B3725004994FB3B561F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6948,6 +7908,24 @@ IL2CPP_EXTERN_C  void MeshTransformList_Dispose_m0F0B77B84E50F02EB1A48751831808F
 	int32_t _offset = 1;
 	_thisAdjusted = reinterpret_cast<MeshTransformList_t761D725D4B30CFD7DDF57B3725004994FB3B561F*>(__this + _offset);
 	MeshTransformList_Dispose_m0F0B77B84E50F02EB1A48751831808F9C69E0636(_thisAdjusted, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeshTransformList_GetLength_mC3AE75E252CD06356380765AF655073B396A5080 (intptr_t ___0_self, const RuntimeMethod* method) 
+{
+	typedef int32_t (*MeshTransformList_GetLength_mC3AE75E252CD06356380765AF655073B396A5080_ftn) (intptr_t);
+	static MeshTransformList_GetLength_mC3AE75E252CD06356380765AF655073B396A5080_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (MeshTransformList_GetLength_mC3AE75E252CD06356380765AF655073B396A5080_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRMeshSubsystem/MeshTransformList::GetLength(System.IntPtr)");
+	int32_t icallRetVal = _il2cpp_icall_func(___0_self);
+	return icallRetVal;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MeshTransformList_GetData_m6A656C505BBE740688C6A158BF73E7C4C19B8F8C (intptr_t ___0_self, const RuntimeMethod* method) 
+{
+	typedef intptr_t (*MeshTransformList_GetData_m6A656C505BBE740688C6A158BF73E7C4C19B8F8C_ftn) (intptr_t);
+	static MeshTransformList_GetData_m6A656C505BBE740688C6A158BF73E7C4C19B8F8C_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (MeshTransformList_GetData_m6A656C505BBE740688C6A158BF73E7C4C19B8F8C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRMeshSubsystem/MeshTransformList::GetData(System.IntPtr)");
+	intptr_t icallRetVal = _il2cpp_icall_func(___0_self);
+	return icallRetVal;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshTransformList_Dispose_m7655ACDE6BC605B30EF2BC387A7B9D0F4D9EED19 (intptr_t ___0_self, const RuntimeMethod* method) 
 {
@@ -7057,6 +8035,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MeshGenerationResult_get_
 {
 	{
 		int32_t L_0 = __this->___U3CAttributesU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t MeshGenerationResult_get_Timestamp_m3D0F0FD234467DF615695ECBB381AFE33030F6CE_inline (MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C* __this, const RuntimeMethod* method) 
+{
+	{
+		uint64_t L_0 = __this->___U3CTimestampU3Ek__BackingField;
 		return L_0;
 	}
 }
@@ -7239,6 +8224,85 @@ IL_0039:
 	{
 		int32_t L_8 = V_0;
 		return L_8;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC MeshInfo_get_MeshId_m96D69F5BA60A596D7C9FAAF0931940452E3D8846_inline (MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* __this, const RuntimeMethod* method) 
+{
+	{
+		MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC L_0 = __this->___U3CMeshIdU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MeshInfo_get_ChangeState_mF366492B8EF4A9FC8F677E01A6BA4C6C75D3BF68_inline (MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CChangeStateU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MeshInfo_get_PriorityHint_mDBD3A096EC571EAAFB1E6CB93F4F309BD70F9231_inline (MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CPriorityHintU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MeshInfo_set_PriorityHint_mA0F4BB9543846770A082A85C721E16D16F664615_inline (MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___0_value;
+		__this->___U3CPriorityHintU3Ek__BackingField = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC MeshTransform_get_MeshId_m6B6006910DA8EF0DDB517424DDBCC2DD5B7E92B9_inline (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, const RuntimeMethod* method) 
+{
+	{
+		MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC L_0 = __this->___U3CMeshIdU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t MeshTransform_get_Timestamp_m63A9BEB7A7544ABA72AFBCF9A4CBA043C872FDFD_inline (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, const RuntimeMethod* method) 
+{
+	{
+		uint64_t L_0 = __this->___U3CTimestampU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 MeshTransform_get_Position_m4E4F6240B8F9DBE4634C1CA346AAFAC1555197E9_inline (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, const RuntimeMethod* method) 
+{
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___U3CPositionU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 MeshTransform_get_Rotation_m1DE1FC2459EC908BCB7A2F82EDFCE437BC211F8F_inline (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, const RuntimeMethod* method) 
+{
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = __this->___U3CRotationU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 MeshTransform_get_Scale_m2C279AD6989B26E8F48402B82312322F0D8B520A_inline (MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A* __this, const RuntimeMethod* method) 
+{
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___U3CScaleU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MeshTransformList__ctor_m7B11F4035F0C79BEEC061590F37136CF7AC16B71_inline (MeshTransformList_t761D725D4B30CFD7DDF57B3725004994FB3B561F* __this, intptr_t ___0_self, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = ___0_self;
+		__this->___m_Self = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* IntPtr_ToPointer_m1A0612EED3A1C8B8850BE2943CFC42523064B4F6_inline (intptr_t* __this, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = *__this;
+		return (void*)(L_0);
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_m0D1DB9EA639FC121D071208CB0B6240B4E12B7CC_gshared_inline (Action_1_t290119641EBA3C1EAC8AF78274C63CE01C3046D8* __this, XRNodeState_t683158812A1D80A6BC73DB97405BB0B795A9111A ___0_obj, const RuntimeMethod* method) 

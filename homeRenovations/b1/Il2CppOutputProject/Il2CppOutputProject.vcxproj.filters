@@ -661,6 +661,12 @@
     <ClCompile Include="Source\il2cppOutput\Generics__117.cpp">
       <Filter>Source\il2cppOutput</Filter>
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics__118.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics__119.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics__12.cpp">
       <Filter>Source\il2cppOutput</Filter>
     </ClCompile>
@@ -1411,6 +1417,15 @@
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs__23.cpp">
       <Filter>Source\il2cppOutput</Filter>
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs__230.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs__231.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs__232.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs__24.cpp">
       <Filter>Source\il2cppOutput</Filter>
     </ClCompile>
@@ -1940,6 +1955,9 @@
       <Filter>Source\il2cppOutput</Filter>
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.ARFoundation.VisualScripting.cpp">
+      <Filter>Source\il2cppOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.ARFoundation__1.cpp">
       <Filter>Source\il2cppOutput</Filter>
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.ARSubsystems.cpp">
