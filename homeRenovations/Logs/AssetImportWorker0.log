@@ -1,0 +1,467 @@
+Unity Editor version:    2022.3.20f1 (61c2feb0970d)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.1 (Build 23B2073)
+Darwin version:          23.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        18432 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/cansuer/Downloads/Myproject-main
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54096
+Successfully changed project path to: /Users/cansuer/Downloads/Myproject-main
+/Users/cansuer/Downloads/Myproject-main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8109547200] Host "[IP] 10.6.95.24 [Port] 0 [Flags] 2 [Guid] 1477173405 [EditorId] 1477173405 [Version] 1048832 [Id] OSXEditor(0,Cans-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8109547200] Host "[IP] 10.6.95.24 [Port] 0 [Flags] 2 [Guid] 1477173405 [EditorId] 1477173405 [Version] 1048832 [Id] OSXEditor(0,Cans-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 10 workers.
+Refreshing native plugins compatible for Editor in 20.62 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/cansuer/Downloads/Myproject-main/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M3 Pro (high power)
+Metal devices available: 1
+0: Apple M3 Pro (high power)
+Using device Apple M3 Pro (high power)
+Initializing Metal device caps: Apple M3 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56389
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003199 seconds.
+- Loaded All Assemblies, in  0.199 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.138 seconds
+Domain Reload Profiling: 337ms
+	BeginReloadAssembly (61ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (82ms)
+		LoadAssemblies (61ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (80ms)
+			TypeCache.Refresh (79ms)
+				TypeCache.ScanAssembly (71ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (139ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (106ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (74ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.394 seconds
+Refreshing native plugins compatible for Editor in 3.85 ms, found 9 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.452 seconds
+Domain Reload Profiling: 847ms
+	BeginReloadAssembly (62ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (286ms)
+		LoadAssemblies (172ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (107ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (453ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (336ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 3.79 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5653 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 110 unused Assets / (1.5 MB). Loaded Objects now: 6140.
+Memory consumption went from 211.9 MB to 210.4 MB.
+Total: 5.265083 ms (FindLiveObjects: 0.497917 ms CreateObjectMapping: 0.245500 ms MarkObjects: 3.997625 ms  DeleteObjects: 0.523625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7696.225864 seconds.
+  path: Assets/150Models/texture/TX_Furn_LeatherArmChairOld_N.tga
+  artifactKey: Guid(f455c0f3e53ed504199662b8fe920274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/TX_Furn_LeatherArmChairOld_N.tga using Guid(f455c0f3e53ed504199662b8fe920274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc87a25057439980a76f7d8a8eafa5c') in 0.075724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Packages/org.mixedrealitytoolkit.accessibility/Utilities/ObjectRoles/UI/Dialog.asset
+  artifactKey: Guid(4def7381e7de73e48bd176633122ba14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.accessibility/Utilities/ObjectRoles/UI/Dialog.asset using Guid(4def7381e7de73e48bd176633122ba14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb135cc7327d7860dd51843d702e03e0') in 0.001133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Textures/DialogBackground@4x.png
+  artifactKey: Guid(52a208bb46e934bb5aba0a4973595f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Textures/DialogBackground@4x.png using Guid(52a208bb46e934bb5aba0a4973595f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e16f38ae1b00b1d823b48dbd6e8d2f') in 0.089149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/150Models/texture/Wooden_chair_Albedo02.tga
+  artifactKey: Guid(719c3ed2d270ed14398ad3483f51314b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/Wooden_chair_Albedo02.tga using Guid(719c3ed2d270ed14398ad3483f51314b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f974e7bf9b21e90d85a3cbf5061c2c92') in 0.009591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/150Models/texture/Wooden_chair02_Normal.tga
+  artifactKey: Guid(b281005ca915dd64c93761335395797a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/Wooden_chair02_Normal.tga using Guid(b281005ca915dd64c93761335395797a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ecbc5241732e1cfed58bf9579465b8f') in 0.007476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/150Models/texture/WritingDeskChair_N.tga
+  artifactKey: Guid(d13a605f6d68c1a4e85821bc251b6a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/WritingDeskChair_N.tga using Guid(d13a605f6d68c1a4e85821bc251b6a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e73ca768a04cc254d9c1942c7edafc') in 0.005842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/150Models/texture/TX_Furn_VictorianChair01_A_D.tga
+  artifactKey: Guid(24f69f66c95c83f4a95a42e0aadd62e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/TX_Furn_VictorianChair01_A_D.tga using Guid(24f69f66c95c83f4a95a42e0aadd62e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559257f806d8be6594d498367e6f802f') in 0.004338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/150Models/texture/WritingDeskChair_Tex.tga
+  artifactKey: Guid(67f479c15f66d5948a832cc79b2d4aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/WritingDeskChair_Tex.tga using Guid(67f479c15f66d5948a832cc79b2d4aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e3a0b8fea5d2dbb1e3c6c930144846') in 0.005886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/150Models/texture/TX_Furn_VictorianChair01_A_N.tga
+  artifactKey: Guid(024348f3b48c6b74696dae31d5a7b456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/TX_Furn_VictorianChair01_A_N.tga using Guid(024348f3b48c6b74696dae31d5a7b456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3bedfca346d50d044a349f68fed6504') in 0.005943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/150Models/texture/Wooden_chair_Albedo.tga
+  artifactKey: Guid(8509cbda3fbf86e408790a9c6bd928a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/Wooden_chair_Albedo.tga using Guid(8509cbda3fbf86e408790a9c6bd928a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab65dad371982f6fa3ac5b1bc0a06b8') in 0.004578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.676732 seconds.
+  path: Assets/150Models/texture/TX_Furn_ArmchairCarvedOak_D.tga
+  artifactKey: Guid(ceddcee6b3b27324cb2e54d1de93c21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/TX_Furn_ArmchairCarvedOak_D.tga using Guid(ceddcee6b3b27324cb2e54d1de93c21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c53539e18a7a01207bdef7d85c236f') in 0.005212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/150Models/texture/TX_Furn_CarvedChair_01_A_D.tga
+  artifactKey: Guid(92bafa4eebaf65249b271d64835d1f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/TX_Furn_CarvedChair_01_A_D.tga using Guid(92bafa4eebaf65249b271d64835d1f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d8d6b7d91b714d3ddcfb8e9c55a33d') in 0.005528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/150Models/texture/TX_Furn_LeatherArmchair_01_A_D.tga
+  artifactKey: Guid(ee824c4f17b122f47867b6b939dd6ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/TX_Furn_LeatherArmchair_01_A_D.tga using Guid(ee824c4f17b122f47867b6b939dd6ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4a6fe8fb99a889d0f1dfce315450d2') in 0.006459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.285740 seconds.
+  path: Assets/150Models/texture/T_GardenChair_BC 1.tga
+  artifactKey: Guid(f6d5fbf2af571b04fbe16853ae8384b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/T_GardenChair_BC 1.tga using Guid(f6d5fbf2af571b04fbe16853ae8384b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563c827639a02696d01e71fcb3e49da2') in 0.005269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/150Models/texture/T_SM_Cult_Prop_Chair_Large_C_default_Normal.tga
+  artifactKey: Guid(a5e8d299cef10bf41bcb12ff05acfad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/T_SM_Cult_Prop_Chair_Large_C_default_Normal.tga using Guid(a5e8d299cef10bf41bcb12ff05acfad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b939bb12353d9a41c8768592fcbaef') in 0.007214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/150Models/texture/T_GardenChair_N 1.tga
+  artifactKey: Guid(91228da97bb929e4fa8f2d4dd0ebc427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/T_GardenChair_N 1.tga using Guid(91228da97bb929e4fa8f2d4dd0ebc427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b01f3bbc55137ec74dc555990b6d98') in 0.007100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.214090 seconds.
+  path: Assets/150Models/texture/SM_Prop_Meth_Bustedchair_BaseColor.tga
+  artifactKey: Guid(c394d94ea6eaf894c921d84a83e4f6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/SM_Prop_Meth_Bustedchair_BaseColor.tga using Guid(c394d94ea6eaf894c921d84a83e4f6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6aeda91b4b6c801cce50eb690b0296') in 0.005998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/150Models/texture/T_Chair_Basic_BC.tga
+  artifactKey: Guid(2bd7e0ce2d8ef23489f2c1ebeb47f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/T_Chair_Basic_BC.tga using Guid(2bd7e0ce2d8ef23489f2c1ebeb47f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c588e6a0eed516e620fd4c30fdf6946') in 0.005468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/150Models/texture/T_GardenChair_BC.tga
+  artifactKey: Guid(e5899fdb7dbd42047ad240978012a3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/T_GardenChair_BC.tga using Guid(e5899fdb7dbd42047ad240978012a3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb5d5286381572b1d455e200eaacfeb') in 0.004723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.499979 seconds.
+  path: Assets/150Models/texture/SM_Club_Prop_Chair_BaseColor.tga
+  artifactKey: Guid(783d1e1f3a4e7c143879e4cd93056ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/SM_Club_Prop_Chair_BaseColor.tga using Guid(783d1e1f3a4e7c143879e4cd93056ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5bed55ef0d39608910dfbb68b37bc1') in 0.005395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/150Models/texture/SM_Cult_Prop_Chair_Small_A_text_M_SM_Cult_Prop_Chair_Small_A_Normal.tga
+  artifactKey: Guid(79591c3bea5242341a601cb72007a21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/SM_Cult_Prop_Chair_Small_A_text_M_SM_Cult_Prop_Chair_Small_A_Normal.tga using Guid(79591c3bea5242341a601cb72007a21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ae0dc280dc07a3a4dcb45073f7946a') in 0.006038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.051897 seconds.
+  path: Assets/150Models/texture/RockingChair_d.tga
+  artifactKey: Guid(77ded4b728f04974c8d78857d269281b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/RockingChair_d.tga using Guid(77ded4b728f04974c8d78857d269281b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e74bd96cb3f489f64666a7984ebe1ed') in 0.008368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/150Models/materials/SCult_Prop_Chair_Large_C_MI.mat
+  artifactKey: Guid(d94fd4e44db7fcc419653884a9a04c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/materials/SCult_Prop_Chair_Large_C_MI.mat using Guid(d94fd4e44db7fcc419653884a9a04c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fde7262454500270a4bd2594e41b470') in 0.046948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/150Models/texture/Rocking_Chair_1B_Normal.tga
+  artifactKey: Guid(51fca606042faa1448d2c2b5662e2aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/Rocking_Chair_1B_Normal.tga using Guid(51fca606042faa1448d2c2b5662e2aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2737a363f75cb28f18d355e05f1d4bc') in 0.006309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016404 seconds.
+  path: Assets/150Models/materials/Prop_Station_Chair.mat
+  artifactKey: Guid(bc2f5d8ed95ec1741bd27e079a2f6460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/materials/Prop_Station_Chair.mat using Guid(bc2f5d8ed95ec1741bd27e079a2f6460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cf658db0774c72534279e1caa711a2') in 0.021698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.027337 seconds.
+  path: Assets/150Models/materials/LawnChair_01a_Inst.mat
+  artifactKey: Guid(8f69f22c654ceb846bd995f1425979a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/materials/LawnChair_01a_Inst.mat using Guid(8f69f22c654ceb846bd995f1425979a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63efef13e0db955e335a7cee08207da') in 0.004934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.149819 seconds.
+  path: Assets/150Models/materials/GardenChair 1.mat
+  artifactKey: Guid(7bc9b5c6a6bc18f44b573083cbc45c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/materials/GardenChair 1.mat using Guid(7bc9b5c6a6bc18f44b573083cbc45c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fcbd1732a604fd3f7c82e42549405a') in 0.005902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.412863 seconds.
+  path: Assets/150Models/materials/Furn_VictorianChair01_A.mat
+  artifactKey: Guid(c4a97b745e32b46459092bf6a7dfa0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/materials/Furn_VictorianChair01_A.mat using Guid(c4a97b745e32b46459092bf6a7dfa0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2892d8a920afbffc11adf3e1d300d806') in 0.004513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.076426 seconds.
+  path: Assets/150Models/materials/Cult_Prop_Chair_Small_A.mat
+  artifactKey: Guid(dff119b7e6cce3441b30dcc56f0dca88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/materials/Cult_Prop_Chair_Small_A.mat using Guid(dff119b7e6cce3441b30dcc56f0dca88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a9be83b51c0f9237517a43297dbf49') in 0.004720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.020137 seconds.
+  path: Assets/150Models/texture/Chair_LowNormalsMap.tga
+  artifactKey: Guid(fcc21bd548061484dabb848abc1462b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/Chair_LowNormalsMap.tga using Guid(fcc21bd548061484dabb848abc1462b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c1281269784a3852433fcd68b5b552') in 0.004752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/150Models/materials/Chair_2.mat
+  artifactKey: Guid(aa496a3f01c257449a4eccbe3e5f6614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/materials/Chair_2.mat using Guid(aa496a3f01c257449a4eccbe3e5f6614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822f6bc9e2d24d8f2267070afe823b9b') in 0.006541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.021482 seconds.
+  path: Assets/150Models/texture/Chair10_NRM.tga
+  artifactKey: Guid(f4a81f7a97d1b554aa4adcde1c99db7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/texture/Chair10_NRM.tga using Guid(f4a81f7a97d1b554aa4adcde1c99db7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b3faa4bdc19fc18a11d0cd10626efe') in 0.005798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016152 seconds.
+  path: Assets/150Models/materials/Chair05.mat
+  artifactKey: Guid(3241d8b3976b13f4ba8380a39e2a7a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/150Models/materials/Chair05.mat using Guid(3241d8b3976b13f4ba8380a39e2a7a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3441a12f52fc9ecb240393e183c684fa') in 0.004078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
