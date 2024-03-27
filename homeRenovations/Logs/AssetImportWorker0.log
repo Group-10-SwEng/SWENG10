@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 7898 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 32581 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
+D:\UnityEditor\2022.3.20f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/alexa/OneDrive - Trinity College Dublin/Year 2/Semester2/SWENG Project/SWENG10/homeRenovations
+D:/UnityPro/SWENG10/homeRenovations
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50533
-Successfully changed project path to: C:/Users/alexa/OneDrive - Trinity College Dublin/Year 2/Semester2/SWENG Project/SWENG10/homeRenovations
-C:/Users/alexa/OneDrive - Trinity College Dublin/Year 2/Semester2/SWENG Project/SWENG10/homeRenovations
+57549
+Successfully changed project path to: D:/UnityPro/SWENG10/homeRenovations
+D:/UnityPro/SWENG10/homeRenovations
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,69 +49,67 @@ C:/Users/alexa/OneDrive - Trinity College Dublin/Year 2/Semester2/SWENG Project/
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17988] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3164115664 [EditorId] 3164115664 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HHOSMUM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [45460] Host "[IP] 192.168.0.20 [Port] 0 [Flags] 2 [Guid] 3692758085 [EditorId] 3692758085 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S28Q4R7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17988] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3164115664 [EditorId] 3164115664 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HHOSMUM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [45460] Host "[IP] 192.168.0.20 [Port] 0 [Flags] 2 [Guid] 3692758085 [EditorId] 3692758085 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S28Q4R7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 118.53 ms, found 17 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 22.74 ms, found 17 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/alexa/OneDrive - Trinity College Dublin/Year 2/Semester2/SWENG Project/SWENG10/homeRenovations/Assets
+[Subsystems] Discovering subsystems at path D:/UnityEditor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityPro/SWENG10/homeRenovations/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
-    Vendor:   Intel
-    VRAM:     3949 MB
-    Driver:   31.0.101.4502
+    Renderer: NVIDIA GeForce RTX 4080 (ID=0x2704)
+    Vendor:   NVIDIA
+    VRAM:     16050 MB
+    Driver:   31.0.15.5186
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Mono path[0] = 'D:/UnityEditor/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityEditor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UnityEditor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.015797 seconds.
-- Loaded All Assemblies, in  1.109 seconds
+Register platform support module: D:/UnityEditor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/UnityEditor/2022.3.20f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.004702 seconds.
+- Loaded All Assemblies, in  0.315 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.462 seconds
-Domain Reload Profiling: 1568ms
-	BeginReloadAssembly (528ms)
+- Finished resetting the current domain, in  0.238 seconds
+Domain Reload Profiling: 553ms
+	BeginReloadAssembly (106ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (88ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (121ms)
-	LoadAllAssembliesAndSetupDomain (343ms)
-		LoadAssemblies (524ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (123ms)
+		LoadAssemblies (106ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (338ms)
-			TypeCache.Refresh (336ms)
-				TypeCache.ScanAssembly (302ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (462ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (108ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (239ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (352ms)
+		SetupLoadedEditorAssemblies (186ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (256ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,11 +117,10 @@ Domain Reload Profiling: 1568ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.797 seconds
-Refreshing native plugins compatible for Editor in 65.11 ms, found 17 plugins.
+- Loaded All Assemblies, in  0.622 seconds
+Refreshing native plugins compatible for Editor in 13.95 ms, found 17 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -138,51 +135,50 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  3.713 seconds
-Domain Reload Profiling: 6508ms
-	BeginReloadAssembly (316ms)
+- Finished resetting the current domain, in  0.662 seconds
+Domain Reload Profiling: 1283ms
+	BeginReloadAssembly (125ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (92ms)
-	RebuildNativeTypeToScriptingClass (40ms)
-	initialDomainReloadingComplete (78ms)
-	LoadAllAssembliesAndSetupDomain (2268ms)
-		LoadAssemblies (1225ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (424ms)
+		LoadAssemblies (279ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1225ms)
-			TypeCache.Refresh (976ms)
-				TypeCache.ScanAssembly (883ms)
-			ScanForSourceGeneratedMonoScriptInfo (177ms)
-			ResolveRequiredComponents (67ms)
-	FinalizeReload (3714ms)
+		AnalyzeDomain (215ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (156ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (662ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2205ms)
+		SetupLoadedEditorAssemblies (495ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (81ms)
-			SetLoadedEditorAssemblies (27ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (366ms)
-			ProcessInitializeOnLoadAttributes (1439ms)
-			ProcessInitializeOnLoadMethodAttributes (279ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
-Refreshing native plugins compatible for Editor in 65.35 ms, found 17 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 6.60 ms, found 17 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5653 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 108 unused Assets / (1.3 MB). Loaded Objects now: 6140.
-Memory consumption went from 204.8 MB to 203.5 MB.
-Total: 17.442400 ms (FindLiveObjects: 1.172300 ms CreateObjectMapping: 0.732500 ms MarkObjects: 12.917800 ms  DeleteObjects: 2.616000 ms)
+Unloading 108 unused Assets / (1.3 MB). Loaded Objects now: 6137.
+Memory consumption went from 205.2 MB to 203.9 MB.
+Total: 2.804900 ms (FindLiveObjects: 0.235400 ms CreateObjectMapping: 0.079800 ms MarkObjects: 2.069500 ms  DeleteObjects: 0.419700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
@@ -195,311 +191,159 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 1310.615397 seconds.
-  path: Packages/org.mixedrealitytoolkit.standardassets/Materials/CompressedButtonMaterial/CanvasFrontplate.mat
-  artifactKey: Guid(5d17c28a5cd12804699959db56fa7928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/org.mixedrealitytoolkit.standardassets/Materials/CompressedButtonMaterial/CanvasFrontplate.mat using Guid(5d17c28a5cd12804699959db56fa7928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa69f77719045bb55539c9478a2cfa2b') in 0.389120 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Received Prepare
+Begin MonoManager ReloadAssembly
+IOException: Sharing violation on path D:\UnityPro\SWENG10\homeRenovations\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Save () [0x000e2] in .\Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\FileSettingsRepository.cs:154 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <5d5ebefe97114215928ac1d9cd096522>:0 
+
+(Filename: ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs Line: 154)
+
+- Loaded All Assemblies, in  0.465 seconds
+Refreshing native plugins compatible for Editor in 14.88 ms, found 17 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.013 seconds
+Domain Reload Profiling: 1477ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (229ms)
+		LoadAssemblies (293ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1013ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (469ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (325ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 15.78 ms, found 17 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5563 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (1.2 MB). Loaded Objects now: 6141.
+Memory consumption went from 190.3 MB to 189.2 MB.
+Total: 4.222900 ms (FindLiveObjects: 0.404100 ms CreateObjectMapping: 0.145200 ms MarkObjects: 2.960300 ms  DeleteObjects: 0.712800 ms)
+
+Prepare: number of updated asset objects reloaded= 70
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/CanvasBackplate.mat
-  artifactKey: Guid(a522d7149601c2642b1b5daf4fd94c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/CanvasBackplate.mat using Guid(a522d7149601c2642b1b5daf4fd94c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2dd32773442c559afd0e70a00667fef') in 0.403464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 150.881573 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Bed_03.prefab
-  artifactKey: Guid(116c7fe0a9e9e9245856ce00dde0ac2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Bed_03.prefab using Guid(116c7fe0a9e9e9245856ce00dde0ac2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bd73310560862fd9111c5fb146370d') in 0.054089 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ULTIMATE PROPS/models/Beds.fbx
-  artifactKey: Guid(b7eff5b56cde569468bc807c4de58df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/models/Beds.fbx using Guid(b7eff5b56cde569468bc807c4de58df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9f936d84b5970f43ea01ccd26379fa') in 0.272839 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 112
-========================================================================
-Received Import Request.
-  Time since last request: 0.425374 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Closet_01a.prefab
-  artifactKey: Guid(422ff9217d2dce14b8e49cbf1b9c115e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Closet_01a.prefab using Guid(422ff9217d2dce14b8e49cbf1b9c115e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffed41d82643ec5be83e8336ccdd29c6') in 0.003573 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Closet_03a.prefab
-  artifactKey: Guid(35818b323c64193429e6c2ee37d4adf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Closet_03a.prefab using Guid(35818b323c64193429e6c2ee37d4adf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9f0e066e7e5ea84dc6cd535efb0e16') in 0.002075 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Closet_04a.prefab
-  artifactKey: Guid(c74a7bd37aceef94dbbb7634792a49d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Closet_04a.prefab using Guid(c74a7bd37aceef94dbbb7634792a49d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df919f29332a825fdb5b53a48f08fe01') in 0.003094 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Closet_03b.prefab
-  artifactKey: Guid(929706536d187d942a8cb097efc91516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Closet_03b.prefab using Guid(929706536d187d942a8cb097efc91516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70e41b684295cc267babb80343fddd7') in 0.003857 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.603986 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/SofaFancy_01a.prefab
-  artifactKey: Guid(682a891c63a62ea4c91853dc11efc43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/SofaFancy_01a.prefab using Guid(682a891c63a62ea4c91853dc11efc43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a3c113c255c45e8617f13bbe685ea8') in 0.024418 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/SofaFancy_01f.prefab
-  artifactKey: Guid(d955ac8badfebed4487ec88905f843ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/SofaFancy_01f.prefab using Guid(d955ac8badfebed4487ec88905f843ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1345100405a2316db9269d88f4dee235') in 0.024858 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 1.144500 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Sofa_06a.prefab
-  artifactKey: Guid(d3c7bcb883b87a84aae3800b730654e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Sofa_06a.prefab using Guid(d3c7bcb883b87a84aae3800b730654e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8d53057bb7bab91795a78c6a1570df') in 0.025004 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.003234 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Sofa_03c.prefab
-  artifactKey: Guid(155316a116021104290d84b598c093b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Sofa_03c.prefab using Guid(155316a116021104290d84b598c093b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf00b75ae0af50e6d51cc38eb1ff79e9') in 0.029166 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.040799 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Sofa_02c.prefab
-  artifactKey: Guid(746d784f5c8c5004487d13b4970a40e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Sofa_02c.prefab using Guid(746d784f5c8c5004487d13b4970a40e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b94f1372d48fc3fa959726903852af') in 0.025368 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.389412 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Sofa_01a.prefab
-  artifactKey: Guid(1c562dd596e673449837c969e76c1fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Sofa_01a.prefab using Guid(1c562dd596e673449837c969e76c1fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50bc8124e9bc02f006dedd05dfaf9858') in 0.018857 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Sofa_02.prefab
-  artifactKey: Guid(22a6d77b1aa5ce64facfceda20685ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Sofa_02.prefab using Guid(22a6d77b1aa5ce64facfceda20685ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6ad00abfbf0b0cc159b5305ce8ec3b') in 0.019546 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Sofa_01.prefab
-  artifactKey: Guid(a63fef774c72aaf43a0631f5cabaa084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Sofa_01.prefab using Guid(a63fef774c72aaf43a0631f5cabaa084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86662ad1d96518466e4f2c9d13df5e55') in 0.021034 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Furn_VictorianSofa01.prefab
-  artifactKey: Guid(70842a2816e501b43a581c4752a3c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Furn_VictorianSofa01.prefab using Guid(70842a2816e501b43a581c4752a3c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ecf12745c0740b17f6df7ddfaca93c') in 0.025376 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 38.482791 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Sideboard.prefab
-  artifactKey: Guid(0a6fa3f6a312dd54899f6f467ccd6e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Sideboard.prefab using Guid(0a6fa3f6a312dd54899f6f467ccd6e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67d977630cd91c4a2f55672c60de40e') in 0.005204 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.040943 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Side_table.prefab
-  artifactKey: Guid(9acabf1e12ab159499ecebb5276061c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Side_table.prefab using Guid(9acabf1e12ab159499ecebb5276061c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b6f0d0e731e525b367caca782a0c44') in 0.002930 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.886002 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Station_Chair.prefab
-  artifactKey: Guid(76c3617c43e2da2448d1ca69fffed0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Station_Chair.prefab using Guid(76c3617c43e2da2448d1ca69fffed0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0da7b1ad5c66eb0531adef022b6f67') in 0.002878 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.040223 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Table_01a.prefab
-  artifactKey: Guid(e87d4afc14bd17f409f68d1e5c3bebfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Table_01a.prefab using Guid(e87d4afc14bd17f409f68d1e5c3bebfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c25b1d1e6250c2e6c458d8f6f67e9dc') in 0.002914 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.001970 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Table_03.prefab
-  artifactKey: Guid(42fcbe0dc85fbe5449f00b6c2daa765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Table_03.prefab using Guid(42fcbe0dc85fbe5449f00b6c2daa765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4941b58aac90f90c45641837f4419e37') in 0.002379 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.049755 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Table_06a.prefab
-  artifactKey: Guid(09a65f961a4eb3f42a25016d081e211e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Table_06a.prefab using Guid(09a65f961a4eb3f42a25016d081e211e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffa14f86bb497852d2aa0d6dfb89f18') in 0.002161 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.552518 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/WallShelf_Apt_02.prefab
-  artifactKey: Guid(372a0d77e8005d947bd72f3cf2cbde53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/WallShelf_Apt_02.prefab using Guid(372a0d77e8005d947bd72f3cf2cbde53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b87d9bed706dc047b93d380ee33c574') in 0.051911 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 20.482143 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Fancy_Stand.prefab
-  artifactKey: Guid(1179552df1fcad54a9f4d59008b27606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Fancy_Stand.prefab using Guid(1179552df1fcad54a9f4d59008b27606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039730ce36ed5ee3d0ea555be19e795c') in 0.004755 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 36.925178 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Furn_TropheeCabinet.prefab
-  artifactKey: Guid(a46f68f5580c93648a711799b82f02ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Furn_TropheeCabinet.prefab using Guid(a46f68f5580c93648a711799b82f02ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a183718a70492d86811401645509a6') in 0.003688 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000456 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Furn_VictorianChair01.prefab
-  artifactKey: Guid(33d09861d7e7d3649b2ba2eff7ef8ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Furn_VictorianChair01.prefab using Guid(33d09861d7e7d3649b2ba2eff7ef8ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db837e2a3f0defc549d4887629d20a5') in 0.030189 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Furn_WardrobeCarvedOak.prefab
-  artifactKey: Guid(c33d58d9ca1b4184a836eeef2944c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Furn_WardrobeCarvedOak.prefab using Guid(c33d58d9ca1b4184a836eeef2944c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf94a602925050f5561865a2ddb1e1d1') in 0.003047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Furn_WardrobeMirror_01_A.prefab
-  artifactKey: Guid(b35d39001bea5c04e9c017f74f01b5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Furn_WardrobeMirror_01_A.prefab using Guid(b35d39001bea5c04e9c017f74f01b5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1efe162db538c35003aa4047d0805ff') in 0.002846 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 1.318692 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Furn_ShelvesCabinet_01_A.prefab
-  artifactKey: Guid(6cf792907715b254ab0531c7036af409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Furn_ShelvesCabinet_01_A.prefab using Guid(6cf792907715b254ab0531c7036af409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5152ddb37c5924992d15c7ab2abdae') in 0.002869 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.060225 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Furn_ShelfCarvedOak01A.prefab
-  artifactKey: Guid(e38bd9792ba14b04582cb8b68a91dfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Furn_ShelfCarvedOak01A.prefab using Guid(e38bd9792ba14b04582cb8b68a91dfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23f90cdc6b960ffdfb347e18045487d') in 0.003227 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.045618 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Furn_RichTeapoy01.prefab
-  artifactKey: Guid(56fe15323af5e304cb61de1ae23d7c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Furn_RichTeapoy01.prefab using Guid(56fe15323af5e304cb61de1ae23d7c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3254397c8bd240f392adbef5c61aa00') in 0.002629 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 107.758000 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Shelf_03.prefab
-  artifactKey: Guid(df17f20e6c34aff4097340f2432a14cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Shelf_03.prefab using Guid(df17f20e6c34aff4097340f2432a14cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3df9690e766da50b12b676aa69fc78') in 0.005695 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 45.978017 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/wood_table.prefab
-  artifactKey: Guid(4ef1d5ff83b8e384fa62b32b789870f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/wood_table.prefab using Guid(4ef1d5ff83b8e384fa62b32b789870f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32e4eb5b393b22bf4557388dc54a31a') in 0.003464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Wooden_chair.prefab
-  artifactKey: Guid(d12c5d995ba967e48ac5fef7729a5f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Wooden_chair.prefab using Guid(d12c5d995ba967e48ac5fef7729a5f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be02308edd4a5732be5382563e15e38') in 0.003139 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 27.531459 seconds.
-  path: Assets/ULTIMATE PROPS/prefab/Furn_KitchenDisplayCabinet_01_A.prefab
-  artifactKey: Guid(de67dd831939fc043975965559427861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/prefab/Furn_KitchenDisplayCabinet_01_A.prefab using Guid(de67dd831939fc043975965559427861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4915ab50e73f6bafd07badf4b28db0') in 0.002520 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 48.556787 seconds.
-  path: Assets/ULTIMATE PROPS/materials/01_Hotel_LeatherChair.mat
-  artifactKey: Guid(61dd40f81a9568c4888f83c2b733edf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/materials/01_Hotel_LeatherChair.mat using Guid(61dd40f81a9568c4888f83c2b733edf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef15bf971f218dcbe26e654e4601724') in 0.040983 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ULTIMATE PROPS/materials/01_RoundTable_Bottom.mat
-  artifactKey: Guid(e6e778578c1e107489902ce80272a7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ULTIMATE PROPS/materials/01_RoundTable_Bottom.mat using Guid(e6e778578c1e107489902ce80272a7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca9660550bc3080e97976f5c77e83d3') in 0.028282 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.456 seconds
+Refreshing native plugins compatible for Editor in 15.02 ms, found 17 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.025 seconds
+Domain Reload Profiling: 1480ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (229ms)
+		LoadAssemblies (297ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1026ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (468ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (321ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 14.96 ms, found 17 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5563 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (1.2 MB). Loaded Objects now: 6145.
+Memory consumption went from 192.3 MB to 191.1 MB.
+Total: 3.912100 ms (FindLiveObjects: 0.392600 ms CreateObjectMapping: 0.141400 ms MarkObjects: 2.749600 ms  DeleteObjects: 0.627800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
