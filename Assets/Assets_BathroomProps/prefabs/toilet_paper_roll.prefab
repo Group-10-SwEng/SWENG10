@@ -12,11 +12,9 @@ GameObject:
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
   - component: {fileID: 13600000}
-  - component: {fileID: 8846291193080481030}
   - component: {fileID: 5852329080962164199}
   - component: {fileID: 5090221377250653482}
   - component: {fileID: 5494531988128230011}
-  - component: {fileID: 1416014655510006389}
   - component: {fileID: 7990654478083732394}
   m_Layer: 0
   m_Name: toilet_paper_roll
@@ -114,20 +112,6 @@ CapsuleCollider:
   m_Height: 0.101402394
   m_Direction: 2
   m_Center: {x: 0.010420897, y: -0.0071384925, z: 0.037299324}
---- !u!114 &8846291193080481030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50cdab0cd5a0916419324bb54314773d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  autoConstraintSelection: 1
-  selectedConstraints: []
 --- !u!114 &5852329080962164199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -435,23 +419,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
---- !u!114 &1416014655510006389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4461cef9324cf904299f3d04a3861659, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  handType: -1
-  proximityType: -1
-  executionOrder: 0
-  constraintOnRotation: 2
-  useLocalSpaceForConstraint: 0
 --- !u!54 &7990654478083732394
 Rigidbody:
   m_ObjectHideFlags: 0

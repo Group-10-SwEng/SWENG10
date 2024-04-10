@@ -12,11 +12,9 @@ GameObject:
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
   - component: {fileID: 6500000}
-  - component: {fileID: 8267482572529653631}
   - component: {fileID: 393713605442530663}
   - component: {fileID: 7760819213299315575}
   - component: {fileID: -3610928980825573787}
-  - component: {fileID: 5554372909766133017}
   - component: {fileID: 3533273557748531549}
   m_Layer: 0
   m_Name: toilet2
@@ -112,20 +110,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1831025, y: 0.37064293, z: 0.20450778}
   m_Center: {x: 0.050388075, y: 0.040593002, z: -0.09955918}
---- !u!114 &8267482572529653631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50cdab0cd5a0916419324bb54314773d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  autoConstraintSelection: 1
-  selectedConstraints: []
 --- !u!114 &393713605442530663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -433,23 +417,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
---- !u!114 &5554372909766133017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4461cef9324cf904299f3d04a3861659, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  handType: -1
-  proximityType: -1
-  executionOrder: 0
-  constraintOnRotation: 2
-  useLocalSpaceForConstraint: 0
 --- !u!54 &3533273557748531549
 Rigidbody:
   m_ObjectHideFlags: 0

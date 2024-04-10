@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
   - component: {fileID: 6500000}
-  - component: {fileID: 2905046972047534083}
-  - component: {fileID: 9207472141191439524}
   - component: {fileID: -6110995225110516323}
   m_Layer: 0
   m_Name: sink1
@@ -108,37 +106,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.32747734, y: 0.27021664, z: 0.255445}
   m_Center: {x: 0, y: -0.5681086, z: -0.26019183}
---- !u!114 &2905046972047534083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50cdab0cd5a0916419324bb54314773d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  autoConstraintSelection: 1
-  selectedConstraints: []
---- !u!114 &9207472141191439524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4461cef9324cf904299f3d04a3861659, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  handType: -1
-  proximityType: -1
-  executionOrder: 0
-  constraintOnRotation: 2
-  useLocalSpaceForConstraint: 0
 --- !u!54 &-6110995225110516323
 Rigidbody:
   m_ObjectHideFlags: 0
